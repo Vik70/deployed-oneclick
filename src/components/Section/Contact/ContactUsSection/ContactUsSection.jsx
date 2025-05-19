@@ -10,11 +10,12 @@ const ContactUsSection = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_o56cbee',     // Replace with your actual EmailJS service ID
-            'template_h5zvneu',    // Replace with your EmailJS template ID
-            form.current,
-            'SzQl9ez0gTOPXC6Fe'      // Replace with your public key (API key)
-        ).then(
+          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+          form.current,
+          process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+          )
+          .then(
             () => {
                 alert("Message sent successfully!");
                 form.current.reset();
