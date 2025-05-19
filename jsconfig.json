@@ -1,0 +1,22 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "~/*": ["./src/*"],
+//       "~/components": ["./src/components/*"],
+//       "~/assets": ["./src/assets/*"],
+//       "~/public": ["./public/*"],
+//     }
+//   }
+// }
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+      "~/components/*": ["src/components/*"],
+      "~/assets/*": ["src/assets/*"],
+      "~/public/*": ["public/*"]
+    }
+  },
+  "include": ["src"]
+}

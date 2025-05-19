@@ -1,0 +1,138 @@
+/*=============================
+	Fact Counter One Css
+===============================*/
+.fact-counter-one {
+    position: relative;
+    display: block;
+    padding: 0px 0px 90px;
+    z-index: 1;
+}
+
+.fact-counter-one__single {
+    position: relative;
+    display: block;
+    border: 2px solid rgba(var(--thm-secondary-rgb), 0.1);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 49px 60px 53px;
+    z-index: 1;
+}
+
+.fact-counter-one__single .inner {
+    position: relative;
+    display: block;
+}
+
+.fact-counter-one__single .inner h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.fact-counter-one__single .inner h2 .plus {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.fact-counter-one__single .inner .text {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    margin-top: 17px;
+}
+
+.fact-counter-one__single .inner .text::before {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(94deg, #FFB629 -1.21%, #186265 116.84%);
+    content: "";
+}
+
+.fact-counter-one__single .inner .text p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/*=============================
+	Fact Counter Two Css
+===============================*/
+.fact-counter-two {
+    position: relative;
+    display: block;
+    background: var(--thm-white);
+    padding: 0px 0px 90px;
+    z-index: 1;
+}
+
+.fact-counter-two .shape1 {
+    position: absolute;
+    top: -120px;
+    right: 0;
+    z-index: -1;
+}
+
+.fact-counter-two__single {
+    position: relative;
+    display: block;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.fact-counter-two__single .icon-box {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: var(--thm-primary);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.fact-counter-two__single .icon-box span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-white);
+    font-size: 45px;
+    line-height: 45px;
+    transition: all 300ms linear;
+    transition-delay: 0.1s;
+}
+
+.fact-counter-two__single:hover .icon-box span {
+    transform: rotateY(180deg);
+}
+
+.fact-counter-two__single-inner {
+    position: relative;
+    display: block;
+    background: var(--thm-gray-bg);
+    border-radius: 4px;
+    padding: 76px 30px 37px;
+}
+
+.fact-counter-two__single-inner h2 {
+    font-size: 50px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.fact-counter-two__single-inner .text {
+    position: relative;
+    display: block;
+    margin-top: 11px;
+}
+
+.fact-counter-two__single-inner .text p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: var(--thm-heading-font);
+}

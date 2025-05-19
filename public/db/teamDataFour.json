@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Rebecca Tylor",
+    "position": "CEO - Founder",
+    "image": "/img/team/team-v2-img1.jpg",
+    "bgImage": "/img/team/team-v2-single-bg1.jpg",
+    "socialLinks": {
+      "facebook": "wwww.facebook.com",
+      "twitter": "www.twitter.com",
+      "instagram": "www.instagram.com",
+      "linkedin": "www.linkedin.com"
+    }
+  },
+  {
+    "name": "Harley Russle",
+    "position": "Senior Worker",
+    "image": "/img/team/team-v2-img2.jpg",
+    "bgImage": "/img/team/team-v2-single-bg2.jpg",
+    "socialLinks": {
+      "facebook": "wwww.facebook.com",
+      "twitter": "www.twitter.com",
+      "instagram": "www.instagram.com",
+      "linkedin": "www.linkedin.com"
+    }
+  },
+  {
+    "name": "Helen Wilmore",
+    "position": "Sr. Manager",
+    "image": "/img/team/team-v2-img3.jpg",
+    "bgImage": "/img/team/team-v2-single-bg3.jpg",
+    "socialLinks": {
+      "facebook": "wwww.facebook.com",
+      "twitter": "www.twitter.com",
+      "instagram": "www.instagram.com",
+      "linkedin": "www.linkedin.com"
+    }
+  },
+  {
+    "name": "Jennifer Rivera",
+    "position": "Cargo Head",
+    "image": "/img/team/team-v2-img2.jpg",
+    "bgImage": "/img/team/team-v2-single-bg2.jpg",
+    "socialLinks": {
+      "facebook": "wwww.facebook.com",
+      "twitter": "www.twitter.com",
+      "instagram": "www.instagram.com",
+      "linkedin": "www.linkedin.com"
+    }
+  },
+  {
+    "name": "Rebecca Tylor",
+    "position": "CEO - Founder",
+    "image": "/img/team/team-v2-img1.jpg",
+    "bgImage": "/img/team/team-v2-single-bg1.jpg",
+    "socialLinks": {
+      "facebook": "wwww.facebook.com",
+      "twitter": "www.twitter.com",
+      "instagram": "www.instagram.com",
+      "linkedin": "www.linkedin.com"
+    }
+  },
+  {
+    "name": "Harley Russle",
+    "position": "Senior Worker",
+    "image": "/img/team/team-v2-img2.jpg",
+    "bgImage": "/img/team/team-v2-single-bg2.jpg",
+    "socialLinks": {
+      "facebook": "wwww.facebook.com",
+      "twitter": "www.twitter.com",
+      "instagram": "www.instagram.com",
+      "linkedin": "www.linkedin.com"
+    }
+  },
+  {
+    "name": "Helen Wilmore",
+    "position": "Sr. Manager",
+    "image": "/img/team/team-v2-img3.jpg",
+    "bgImage": "/img/team/team-v2-single-bg3.jpg",
+    "socialLinks": {
+      "facebook": "wwww.facebook.com",
+      "twitter": "www.twitter.com",
+      "instagram": "www.instagram.com",
+      "linkedin": "www.linkedin.com"
+    }
+  }
+]

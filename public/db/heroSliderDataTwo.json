@@ -1,0 +1,38 @@
+[
+  {
+    "image": "/img/slider/slider-v2-img1.jpg",
+    "shapes": {
+      "shape1": "/img/shape/slider-v2-shape1.png",
+      "shape2": "/img/shape/slider-v2-shape2.png",
+      "shape3": "/img/shape/slider-v2-shape3.png",
+      "shape4": "/img/shape/slider-v2-shape4.png"
+    },
+    "title": "Translo",
+    "content": {
+      "subTitle": "Logistics & Supply Chain Solutions",
+      "title": "Fast and Safety\nWorld wide Service",
+      "title3": "Provider",
+      "text": "With more than 30 years of experience in the logistics\nindustry\nbibendum auctor nisi elit more consequat ipsum."
+    },
+    "buttonText": "Calculate Package",
+    "buttonIcon": "icon-right-arrow"
+  },
+  {
+    "image": "/img/slider/slider-v2-img2.jpg",
+    "shapes": {
+      "shape1": "/img/shape/slider-v2-shape1.png",
+      "shape2": "/img/shape/slider-v2-shape2.png",
+      "shape3": "/img/shape/slider-v2-shape3.png",
+      "shape4": "/img/shape/slider-v2-shape4.png"
+    },
+    "title": "Translo",
+    "content": {
+      "subTitle": "Logistics & Supply Chain Solutions",
+      "title": "Fast and Safety\nWorld wide Service",
+      "title3": "Provider",
+      "text": "With more than 30 years of experience in the logistics\nindustry\nbibendum auctor nisi elit more consequat ipsum."
+    },
+    "buttonText": "Calculate Package",
+    "buttonIcon": "icon-right-arrow"
+  }
+]

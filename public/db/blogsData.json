@@ -1,0 +1,34 @@
+[
+  {
+    "image": "/img/blog/blog-v1-img1.jpg",
+    "category": "Air Freight",
+    "title": "Advanced Service by Air Transport",
+    "link": "blog-details",
+    "author": "Admin",
+    "date": "January 15, 2023"
+  },
+  {
+    "image": "/img/blog/blog-v1-img2.jpg",
+    "category": "Local Shipping",
+    "title": "How technology can help redraw the supply",
+    "link": "blog-details",
+    "author": "Admin",
+    "date": "February 20, 2023"
+  },
+  {
+    "image": "/img/blog/blog-v1-img3.jpg",
+    "category": "Logistic",
+    "title": "Going forward, a new normal that has evolved",
+    "link": "blog-details",
+    "author": "Admin",
+    "date": "March 17, 2023"
+  },
+  {
+    "image": "/img/blog/blog-v1-img2.jpg",
+    "category": "Local Shipping",
+    "title": "How technology can help redraw the supply",
+    "link": "blog-details",
+    "author": "Admin",
+    "date": "February 20, 2023"
+  }
+]

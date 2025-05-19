@@ -1,0 +1,64 @@
+[
+  {
+    "image": "/img/service/xray.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "X-Ray Screening",
+    "description": "Certified screening facility for aviation cargo, ensuring your goods meet all security regulations before transport.",
+    "link": "ocean-freight"
+  },
+
+  {
+    "image": "/img/service/tcd.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Time Critical Deliveries (UK & EU)",
+    "description": "Reliable road freight for urgent deliveries across the UK and Europe—direct, time-sensitive and fully trackable.",
+    "link": "ocean-freight"
+  },
+
+  {
+    "image": "/img/service/etsf.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "ETSF (External Temporary Storage Facility)",
+    "description": "HMRC-approved storage under customs control, reducing clearance delays and simplifying your import process.",
+    "link": "ocean-freight"
+  },
+
+  {
+    "image": "/img/service/pandp.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Pick and Pack",
+    "description": "Efficient pick and pack handling tailored to your inventory needs—ensuring fast, accurate fulfilment for every order.",
+    "link": "ocean-freight"
+  },
+  {
+    "image": "/img/service/pharm.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Pharmaceutical",
+    "description": "Compliant handling and transport of pharmaceutical items, with care across temperature control, packaging, and final delivery.",
+    "link": "ocean-freight"
+  },
+  {
+    "image": "/img/service/aog.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "AOG (Aircraft on Ground)",
+    "description": "Rapid response for urgent aircraft parts with direct collection, secure packaging, and immediate dispatch to your site.",
+    "link": "ocean-freight"
+  },
+ 
+  {
+    "image": "/img/service/obc.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "On Board Courier",
+    "description": "Hand-delivered, person-to-person courier service for high-value items with full journey tracking and personal handling.",
+    "link": "ocean-freight"
+  },
+ 
+  
+  {
+    "image": "/img/service/warehouse.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Warehousing",
+    "description": "Secure warehousing with expert palletisation, cargo handling, and flexible storage to match your operational needs.",
+    "link": "ocean-freight"
+  }
+]

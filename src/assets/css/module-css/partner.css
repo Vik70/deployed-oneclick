@@ -1,0 +1,122 @@
+/***
+=============================================
+Brand One
+=============================================
+***/
+.brand-one {
+    position: relative;
+    display: block;
+    background: var(--thm-black2);
+    padding: 125px 0 124px;
+    border-top: 2px solid rgba(var(--thm-white-rgb), 0.2);
+    margin-top: 145px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.brand-one .shape1 {
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    z-index: -1;
+}
+
+.brand-one .big-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(var(--thm-white-rgb), 0.05);
+    font-size: 190px;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    font-family: var(--thm-heading-font);
+    z-index: -1;
+}
+
+.brand-one .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    transition: .5s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.brand-one .swiper-slide .img-box {
+    position: relative;
+    display: block;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.brand-one .swiper-slide:hover .img-box {
+    transform: translateY(-100%);
+}
+
+.brand-one .swiper-slide .img-box img {
+    opacity: 0.8;
+    width: auto;
+}
+
+.brand-one .swiper-slide .img-box2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(100%);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.brand-one .swiper-slide:hover .img-box2 {
+    transform: translateY(0);
+}
+
+/***
+=============================================
+Brand Two
+=============================================
+***/
+.brand-one--two {
+    position: relative;
+    display: block;
+    background: var(--thm-gray-bg);
+    border-top: 0px;
+    padding: 115px 0 165px;
+    margin-top: 0px;
+    z-index: 1;
+ 
+}
+
+.brand-one--two .big-title-box {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgba(var(--thm-black-rgb), 0.02);
+    font-size: 220px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--thm-heading-font);
+}

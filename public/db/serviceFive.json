@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "/img/service/service-v3-img1.jpg",
+    "iconClass": "icon-road-transport t5",
+    "title": "Road Transport",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "01",
+    "link": "road-transport",
+    "number": "01"
+  },
+  {
+    "id": 2,
+    "image": "/img/service/service-v3-img2.jpg",
+    "iconClass": "icon-ocean-freight1",
+    "title": "Ocean Freight",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "02",
+    "link": "ocean-freight",
+    "number": "02"
+  },
+  {
+    "id": 3,
+    "image": "/img/service/service-v3-img3.jpg",
+    "iconClass": "icon-experience",
+    "title": "Cargo Container",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "03",
+    "link": "cargo-container",
+    "number": "03"
+  },
+  {
+    "id": 3,
+    "image": "/img/service/service-v3-img3.jpg",
+    "iconClass": "icon-experience",
+    "title": "Cargo Container",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "03",
+    "link": "cargo-container",
+    "number": "03"
+  }
+]

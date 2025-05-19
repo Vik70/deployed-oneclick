@@ -1,0 +1,72 @@
+[
+  {
+    "image": "/img/service/service-v2-img1.jpg",
+    "number": "01",
+    "title": "Air Freight",
+    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
+    "link": "air-freight"
+  },
+  {
+    "image": "/img/service/service-v2-img2.jpg",
+    "number": "02",
+    "title": "Ocean Freight",
+    "text": "The point of using Lorem Ipsum is that it has a more",
+    "link": "ocean-freight"
+  },
+  {
+    "image": "/img/service/service-v2-img3.jpg",
+    "number": "03",
+    "title": "Cargo Container",
+    "text": "All the Lorem Ipsum generators on the Internet tend",
+    "link": "cargo-transport"
+  },
+  {
+    "image": "/img/service/service-v2-img4.jpg",
+    "number": "04",
+    "title": "Road Transport",
+    "text": "pursue pleasure rationally painful consequencesare extremely",
+    "link": "road-transport"
+  },
+  {
+    "image": "/img/service/service-v2-img1.jpg",
+    "number": "05",
+    "title": "Air Freight",
+    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
+    "link": "air-freight"
+  },
+  {
+    "image": "/img/service/service-v2-img2.jpg",
+    "number": "06",
+    "title": "Ocean Freight",
+    "text": "The point of using Lorem Ipsum is that it has a more",
+    "link": "ocean-freight"
+  },
+  {
+    "image": "/img/service/service-v2-img3.jpg",
+    "number": "07",
+    "title": "Cargo Container",
+    "text": "All the Lorem Ipsum generators on the Internet tend",
+    "link": "cargo-transport"
+  },
+  {
+    "image": "/img/service/service-v2-img4.jpg",
+    "number": "08",
+    "title": "Road Transport",
+    "text": "pursue pleasure rationally painful consequencesare extremely",
+    "link": "road-transport"
+  },
+  {
+    "image": "/img/service/service-v2-img1.jpg",
+    "number": "09",
+    "title": "Air Freight",
+    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
+    "link": "air-freight"
+  },
+  {
+    "image": "/img/service/service-v2-img2.jpg",
+    "number": "10",
+    "title": "Ocean Freight",
+    "text": "The point of using Lorem Ipsum is that it has a more",
+    "link": "ocean-freight"
+  }
+]

@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('/fonts/icomoon.eot?m31ns');
+  src: url('/fonts/icomoon.eot?m31ns#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?m31ns') format('truetype'),
+    url('/fonts/icomoon.woff?m31ns') format('woff'),
+    url('/fonts/icomoon.svg?m31ns#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+.icon-pin:before {
+  content: "\e901";
+}
+
+.icon-paper-plane:before {
+  content: "\e907";
+}
+
+.icon-out-call:before {
+  content: "\e908";
+}
+
+.icon-telephone-handle-silhouette:before {
+  content: "\e909";
+}
+
+.icon-left-arrow:before {
+  content: "\e912";
+}
+
+.icon-right-arrow1:before {
+  content: "\e913";
+}
+
+.icon-up-arrow:before {
+  content: "\e914";
+}
+
+.icon-down-arrow:before {
+  content: "\e915";
+}
+
+.icon-magnifying-glass:before {
+  content: "\e916";
+}
+
+.icon-right-arrow:before {
+  content: "\e917";
+}
+
+.icon-right-arrow-1:before {
+  content: "\e918";
+}
+
+.icon-up:before {
+  content: "\e919";
+}
+
+.icon-star:before {
+  content: "\e91b";
+}
+
+.icon-call:before {
+  content: "\e91d";
+}
+
+.icon-up-right-arrow:before {
+  content: "\e91e";
+}
+
+.icon-facebook:before {
+  content: "\e91f";
+}
+
+.icon-twitter:before {
+  content: "\e921";
+}
+
+.icon-instagram:before {
+  content: "\e923";
+}
+
+.icon-linkedin:before {
+  content: "\e929";
+}
+
+.icon-right-arrow-2:before {
+  content: "\e92e";
+}
+
+.icon-right-arrow-3:before {
+  content: "\e92f";
+}
+
+.icon-play-button-arrowhead:before {
+  content: "\e930";
+}
+
+.icon-check:before {
+  content: "\e931";
+}
+
+.icon-down-arrow-1:before {
+  content: "\e932";
+}
+
+.icon-plus:before {
+  content: "\e933";
+  color: #1e2959;
+}
+
+.icon-right-arrow-4:before {
+  content: "\e934";
+}
+
+.icon-left-arrow-5:before {
+  content: "\e935";
+}
+
+.icon-right-arrow-5:before {
+  content: "\e936";
+}
+
+.icon-telephone-call:before {
+  content: "\e937";
+}
+
+.icon-location:before {
+  content: "\e938";
+}
+
+.icon-email:before {
+  content: "\e939";
+}
+
+.icon-time:before {
+  content: "\e93a";
+}
+
+.icon-user:before {
+  content: "\e93b";
+}
+
+.icon-calendar:before {
+  content: "\e93c";
+}
+
+.icon-chat:before {
+  content: "\e93d";
+}
+
+.icon-supermarket:before {
+  content: "\e93e";
+}
+
+.icon-reply-arrow:before {
+  content: "\e93f";
+}
+
+.icon-airplane:before {
+  content: "\e940";
+}
+
+.icon-shipped:before {
+  content: "\e941";
+}
+
+.icon-menu:before {
+  content: "\e942";
+}
+
+.icon-menu-button-of-three-horizontal-lines:before {
+  content: "\e943";
+}
+
+.icon-right-time-delivery-1:before {
+  content: "\e944";
+}
+
+.icon-safe-package:before {
+  content: "\e945";
+}
+
+.icon-warehousing:before {
+  content: "\e946";
+}
+
+.icon-air-transport:before {
+  content: "\e900";
+}
+
+.icon-cargo-container:before {
+  content: "\e902";
+}
+
+.icon-checked-2:before {
+  content: "\e903";
+}
+
+.icon-check-marked-1:before {
+  content: "\e904";
+}
+
+.icon-clients:before {
+  content: "\e905";
+}
+
+.icon-comments:before {
+  content: "\e906";
+}
+
+.icon-date:before {
+  content: "\e90a";
+}
+
+.icon-enter-product-details:before {
+  content: "\e90b";
+}
+
+.icon-esteemed-company:before {
+  content: "\e90c";
+}
+
+.icon-experience:before {
+  content: "\e90d";
+}
+
+.icon-fast-worldwide-delivery:before {
+  content: "\e90e";
+}
+
+.icon-global-network:before {
+  content: "\e90f";
+}
+
+.icon-ocean-freight1:before {
+  content: "\e910";
+}
+
+.icon-online-support:before {
+  content: "\e911";
+}
+
+.icon-pay-your-service-tag:before {
+  content: "\e91a";
+}
+
+.icon-ready-to-go-your-goods:before {
+  content: "\e91c";
+}
+
+.icon-satisfied3:before {
+  content: "\e920";
+}
+
+.icon-shipped1:before {
+  content: "\e922";
+}
+
+.icon-special-shipments:before {
+  content: "\e924";
+}
+
+.icon-support:before {
+  content: "\e925";
+}
+
+.icon-tag:before {
+  content: "\e926";
+}
+
+.icon-user1:before {
+  content: "\e927";
+}
+
+.icon-vehicles:before {
+  content: "\e928";
+}
+
+.icon-worldwide:before {
+  content: "\e92a";
+}
+
+.icon-quote11:before {
+  content: "\e92b";
+}
+
+.icon-right-time-delivery:before {
+  content: "\e92c";
+}
+
+.icon-road-transport:before {
+  content: "\e92d";
+}

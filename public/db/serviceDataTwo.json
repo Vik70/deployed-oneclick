@@ -1,0 +1,20 @@
+[
+  
+
+  {
+    "icon": "icon-support",
+    "title": "24-Hour Support",
+    "description": "Our dedicated team monitors your cargo around the clock, ready to assist at any hour."
+  },
+  {
+    "icon": "icon-special-shipments",
+    "title": "Special Shipments",
+    "description": "Fragile or time-critical, we have the know-how and facilities to handle your unique cargo requirements."
+  },
+ 
+  {
+    "icon": "icon-esteemed-company",
+    "title": "Esteemed Company",
+    "description": "Over 4000 clients who trust our competitive, reliable services for their transport and handling needs. "
+  }
+]

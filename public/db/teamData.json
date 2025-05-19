@@ -1,0 +1,82 @@
+[
+  {
+    "img": "/img/team/team-v3-img1.jpg",
+    "name": "Rebecca Tylor",
+    "position": "CEO - Founder",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  },
+  {
+    "img": "/img/team/team-v3-img2.jpg",
+    "name": "Harley Russle",
+    "position": "Senior Worker",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  },
+  {
+    "img": "/img/team/team-v3-img3.jpg",
+    "name": "Helen Wilmore",
+    "position": "Sr. Manager",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  },
+  {
+    "img": "/img/team/team-v3-img4.jpg",
+    "name": "Jennifer Rivera",
+    "position": "Cargo Head",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  },
+  {
+    "img": "/img/team/team-v3-img5.jpg",
+    "name": "Jennifer Rivera",
+    "position": "Worker",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  },
+  {
+    "img": "/img/team/team-v3-img6.jpg",
+    "name": "Leonardo Axel",
+    "position": "Worker",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  },
+  {
+    "img": "/img/team/team-v3-img7.jpg",
+    "name": "Alexander Leo",
+    "position": "Worker",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  },
+  {
+    "img": "/img/team/team-v3-img8.jpg",
+    "name": "Theodore Sr.",
+    "position": "Worker",
+    "link": "team-details",
+    "social1": { "icon": "icon-facebook", "link": "#" },
+    "social2": { "icon": "icon-twitter", "link": "#" },
+    "social3": { "icon": "icon-instagram", "link": "#" },
+    "social4": { "icon": "icon-linkedin", "link": "#" }
+  }
+]

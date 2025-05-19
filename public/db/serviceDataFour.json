@@ -1,0 +1,42 @@
+[
+  {
+    "image": "/img/project/project-v1-img1.jpg",
+    "number": "N.01",
+    "category": "Large Warehouse",
+    "title": "Warehouse & Services",
+    "description": "Freight Consolidators connects your business with international.",
+    "link": "project-details"
+  },
+  {
+    "image": "/img/project/project-v1-img2.jpg",
+    "number": "N.02",
+    "category": "Premium Tankers",
+    "title": "Transport for Product",
+    "description": "Freight Consolidators connects your business with international.",
+    "link": "project-details"
+  },
+  {
+    "image": "/img/project/project-v1-img3.jpg",
+    "number": "N.03",
+    "category": "Air Transportation",
+    "title": "Transport for Product",
+    "description": "Freight Consolidators connects your business with international.",
+    "link": "project-details"
+  },
+  {
+    "image": "/img/project/project-v1-img4.jpg",
+    "number": "N.04",
+    "category": "Road Transportation",
+    "title": "Specialized Transport",
+    "description": "Freight Consolidators connects your business with international.",
+    "link": "project-details"
+  },
+  {
+    "image": "/img/project/project-v1-img2.jpg",
+    "number": "N.02",
+    "category": "Premium Tankers",
+    "title": "Transport for Product",
+    "description": "Freight Consolidators connects your business with international.",
+    "link": "project-details"
+  }
+]

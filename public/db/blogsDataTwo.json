@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Advanced Service Functions by Air Transport",
+    "meta": {
+      "category": "Air Freight",
+      "date": "November 13, 2023"
+    },
+    "link": "blog-details",
+    "image": "/img/blog/blog-v2-img4.jpg",
+    "thumbnail": "/img/blog/blog-v2-img1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "How technology can help redraw the supply",
+    "meta": {
+      "category": "Logistics, Solution",
+      "date": "March 17, 2023"
+    },
+    "link": "blog-details",
+    "image": "/img/blog/blog-v2-img5.jpg",
+    "thumbnail": "/img/blog/blog-v2-img2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Going forward, a new normal that has evolved",
+    "meta": {
+      "category": "Local Shipping",
+      "date": "April 24, 2023"
+    },
+    "link": "blog-details",
+    "image": "/img/blog/blog-v2-img6.jpg",
+    "thumbnail": "/img/blog/blog-v2-img3.jpg"
+  }
+]

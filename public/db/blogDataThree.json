@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "author": "Harley Russle",
+      "image1": "/img/blog/blog-v3-img4.jpg",
+      "image2": "/img/blog/blog-v3-img1.jpg",
+      "title": "How technology can help redraw the supply",
+      "category": "Air Freight",
+      "date": "November 13, 2023",
+      "link": "blog-details"
+    },
+    {
+      "id": 2,
+      "author": "Harley Russle",
+      "image1": "/img/blog/blog-v3-img6.jpg",
+      "image2": "/img/blog/blog-v3-img3.jpg",
+      "title": "Advanced Service Functions by Air Transport",
+      "category": "Air Freight",
+      "date": "November 13, 2023",
+      "link": "blog-details"
+    },
+    {
+      "id": 3,
+      "author": "Harley Russle",
+      "image1": "/img/blog/blog-v3-img5.jpg",
+      "image2": "/img/blog/blog-v3-img2.jpg",
+      "title": "Going forward, a new normal that has evolved",
+      "category": "Air Freight",
+      "date": "November 13, 2023",
+      "link": "blog-details"
+    },
+    {
+      "id": 4,
+      "author": "Harley Russle",
+      "image1": "/img/blog/blog-v3-img5.jpg",
+      "image2": "/img/blog/blog-v3-img2.jpg",
+      "title": "Going forward, a new normal that has evolved",
+      "category": "Air Freight",
+      "date": "November 13, 2023",
+      "link": "blog-details"
+    }
+  ]
+  

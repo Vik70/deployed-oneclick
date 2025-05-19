@@ -1,0 +1,54 @@
+[
+  {
+    "image": "/img/team/team-v2-img1.jpg",
+    "backgroundImage": "/img/team/team-v2-single-bg1.jpg",
+    "name": "Rebecca Tylor",
+    "position": "Cargo Head",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    },
+    "phone": "+70 264 566 579"
+  },
+  {
+    "image": "/img/team/team-v2-img1.jpg",
+    "backgroundImage": "/img/team/team-v2-single-bg1.jpg",
+    "name": "Rebecca Tylor",
+    "position": "Cargo Head",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    },
+    "phone": "+70 264 566 579"
+  },
+  {
+    "image": "/img/team/team-v2-img2.jpg",
+    "backgroundImage": "/img/team/team-v2-single-bg2.jpg",
+    "name": "Harvey Tylor",
+    "position": "Senior Worker",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    },
+    "phone": "+70 264 566 579"
+  },
+  {
+    "image": "/img/team/team-v2-img3.jpg",
+    "backgroundImage": "/img/team/team-v2-single-bg3.jpg",
+    "name": "Rebecca Tylor",
+    "position": "CEO - Founder",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    },
+    "phone": "+70 264 566 579"
+  }
+]
