@@ -29,12 +29,8 @@ const SupportPage = () => {
             <li>🏢 Address: Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</li>
           </ul>
 
-          <h4 className="mt-5 mb-2">Business Hours</h4>
-          <ul className="list-disc ml-5 mb-4">
-            <li>Monday – Friday: 8:00 AM – 6:00 PM</li>
-            <li>Saturday: 9:00 AM – 1:00 PM</li>
-            <li>Sunday: Closed</li>
-          </ul>
+          <h4 className="mt-5 mb-2">Business Hours: 24/7</h4>
+        
 
           
 
