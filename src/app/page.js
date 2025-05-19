@@ -1,5 +1,7 @@
-import Footer from "~/components/Section/Common/Footer";
-import Header from "~/components/Section/Common/Header";
+"use client";
+import Head from "next/head";
+
+import FooterThree from "~/components/Section/Common/Footer/FooterThree";
 import { HeaderFour } from "~/components/Section/Common/Header";
 
 import About from "~/components/Section/Home-1/About";
@@ -16,30 +18,41 @@ import Team from "~/components/Section/Home-1/Team";
 import Testimonial from "~/components/Section/Home-1/Testimonial";
 import Video from "~/components/Section/Home-1/Video";
 import WorkingProcess from "~/components/Section/Home-1/WorkingProcess/WorkingProcess";
-import FooterThree from "~/components/Section/Common/Footer/FooterThree";
-
 
 export default function Home() {
   return (
     <div className="body-dark-bg">
+      <Head>
+        <title>One Click Handling | Express Logistics & Warehousing UK</title>
+        <meta
+          name="description"
+          content="Same-day transport, secure warehousing, and customs clearance tailored for businesses. Trusted UK courier and ETSF partner."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          property="og:title"
+          content="One Click Handling | Express Logistics & Warehousing UK"
+        />
+        <meta
+          property="og:description"
+          content="Transport, warehousing, and customs handling specialists. Based near Heathrow."
+        />
+        <meta property="og:image" content="/img/logo.png" />
+        <meta
+          name="keywords"
+          content="logistics, warehousing, customs brokerage, transport, Heathrow, courier, ADR, ETSF"
+        />
+      </Head>
+
       <div className="fix">
-        {/* <Header /> */}
         <HeaderFour />
 
         <Hero />
         <About />
         <Service />
-        {/* <Video /> */}
-        {/* <WorkingProcess /> */}
         <Cta />
         <ChooseUs />
-        {/* <Fact /> */}
-        {/* <RecentProjects /> */}
-        {/* <RequestService /> */}
         <Testimonial />
-        {/* <Team /> */}
-        {/* <Faq /> */}
-    
         <FooterThree />
       </div>
     </div>

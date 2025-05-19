@@ -53,6 +53,14 @@ const HeaderFour = () => {
         setCurrentPath(pathname);
     }, [pathname]);
 
+    useEffect(() => {
+  // Close mobile menu & remove scroll lock on route change
+  setMobileMenu(false);
+  setIsOverlayActive(false);
+  document.body.classList.remove("disable-scroll");
+}, [pathname]);
+
+
     const [scrollClassName, setScrollClassName] = useState("");
     useEffect(() => {
         const handleScroll = () => {
