@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.oneclickhandling.co.uk/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.oneclickhandling.co.uk/about</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.oneclickhandling.co.uk/services</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.oneclickhandling.co.uk/contact</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.oneclickhandling.co.uk/terms-and-conditions</loc>
+  </url>
+  <url>
+    <loc>https://www.oneclickhandling.co.uk/privacy-policy</loc>
+  </url>
+  <url>
+    <loc>https://www.oneclickhandling.co.uk/support</loc>
+  </url>
+  <!-- Service pages -->
+  <url><loc>https://www.oneclickhandling.co.uk/x-ray-screening</loc></url>
+  <url><loc>https://www.oneclickhandling.co.uk/time-critical-deliveries</loc></url>
+  <url><loc>https://www.oneclickhandling.co.uk/etsf</loc></url>
+  <url><loc>https://www.oneclickhandling.co.uk/pick-and-pack</loc></url>
+  <url><loc>https://www.oneclickhandling.co.uk/pharmaceutical</loc></url>
+  <url><loc>https://www.oneclickhandling.co.uk/aog</loc></url>
+  <url><loc>https://www.oneclickhandling.co.uk/on-board-courier</loc></url>
+  <url><loc>https://www.oneclickhandling.co.uk/warehousing</loc></url>
+</urlset>

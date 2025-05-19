@@ -8,23 +8,28 @@ const AboutSection = () => {
                 <div className="row">
                     {/* <!--Start About Three Img--> */}
                     <div className="col-xl-6">
-                        <div className="about-three__img">
-                            <div className="shape1">
+                        <div className="about-three__img position-relative">
+                            {/* Hide shape and large images on mobile */}
+                            <div className="shape1 d-none d-md-block">
                                 <img src="/img/shape/about-v3-shape1.png" alt="" />
                             </div>
                             <div
-                                className="about-three__img1 wow fadeInLeft"
+                                className="about-three__img1 wow fadeInLeft d-none d-md-block"
                                 data-wow-delay=".1s"
                             >
                                 <img src="/img/about/about3.png" alt="About One Click Handling" />
                             </div>
                             <div
-                                className="about-three__img2 wow fadeInRight"
+                                className="about-three__img2 wow fadeInRight d-none d-md-block"
                                 data-wow-delay=".1s"
                             >
                                 <img src="/img/about/about2.png" alt="Our Logistics Team" />
                             </div>
-                            <CircleTextThree />
+
+                            {/* Always show the circle and center it on mobile */}
+                            <div className="d-flex d-md-block mt-4 mt-md-0">
+                                <CircleTextThree />
+                            </div>
                         </div>
                     </div>
                     {/* <!--End About Three Img--> */}
@@ -34,28 +39,21 @@ const AboutSection = () => {
                         <div className="about-three__content">
                             <div className="sec-title-style3">
                                 <div className="sub-title">
-                                    <div className="icon">
-                                        
-                                    </div>
+                                    <div className="icon" />
                                     <h5>About Company</h5>
                                 </div>
                                 <h2>
                                     One Click Handling, <br />
                                     The Best Transport and Handling partner
-
                                 </h2>
                             </div>
                             <div className="about-three__content-text">
-                              
-                            <p>
-  Our mission is to support your logistic needs by offering a one-stop solution for businesses of all sizes. Whether you need overnight courier services, specialised pharmaceutical transport, temperature controlled storage or express deliveries, our dedicated team of experts will customise a solution that works for you. At One Click Handling, we measure our success by your satisfaction and we strive to exceed your expectations at every milestone of your supply chain.
-</p>
-
+                                <p>
+                                    Our mission is to support your transport and handling needs by offering a one-stop solution for businesses of all sizes. Whether you need overnight courier services, specialised pharmaceutical transport, temperature controlled storage or express deliveries, our dedicated team of experts will customise a solution that works for you. At One Click Handling, we measure our success by your satisfaction and we strive to exceed your expectations at every milestone of your supply chain.
+                                </p>
                             </div>
 
                             <ul className="about-three__content-list">
-                                
-
                                 <li>
                                     <div className="icon-box">
                                         <span className="icon-enter-product-details"></span>
@@ -63,15 +61,13 @@ const AboutSection = () => {
                                     <div className="text-box">
                                         <h3>Safe And Secure Delivery</h3>
                                         <p>
-                                        We follow strict safety protocols at every step of the handling process. From secure surveillance at our storage sites to thorough checks on all transport partners, your cargo is protected with care, attention, and accountability from start to finish.
+                                            We follow strict safety protocols at every step of the handling process. From secure surveillance at our storage sites to thorough checks on all transport partners, your cargo is protected with care, attention, and accountability from start to finish.
                                         </p>
                                     </div>
                                 </li>
                             </ul>
 
                             <div className="about-three__content-bottom">
-
-
                                 <div className="author-box">
                                     <div className="img-box">
                                         <img
