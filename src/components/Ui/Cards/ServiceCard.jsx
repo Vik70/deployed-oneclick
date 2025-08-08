@@ -13,7 +13,7 @@ const ServiceCard = ({ item }) => {
       </div>
       <div className="service-one__single-content">
         <h3>
-          <Link href="road-transport">{item?.title}</Link>
+          <Link href={item?.link}>{item?.title}</Link>
         </h3>
         <p>
           {item.description}
