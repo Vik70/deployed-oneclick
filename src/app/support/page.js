@@ -1,4 +1,5 @@
 "use client";
+import Head from "next/head";
 import FooterThree from "~/components/Section/Common/Footer/FooterThree";
 import PageHeader from "~/components/Section/Common/PageHeader";
 import { HeaderFour } from "~/components/Section/Common/Header";
@@ -9,6 +10,9 @@ import Faq from "~/components/Section/Home-1/Faq";
 const SupportPage = () => {
   return (
     <div className="body-dark-bg">
+      <Head>
+        <link rel="canonical" href="https://oneclickhandling.co.uk/support" />
+      </Head>
       <HeaderFour />
       <PageHeader title="Support" />
 

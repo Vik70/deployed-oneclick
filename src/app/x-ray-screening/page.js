@@ -1,4 +1,10 @@
 import FooterThree from "~/components/Section/Common/Footer/FooterThree";
+
+export const metadata = {
+  alternates: {
+    canonical: "https://oneclickhandling.co.uk/x-ray-screening",
+  },
+};
 import PageHeader from "~/components/Section/Common/PageHeader";
 import Cta from "~/components/Section/Common/Cta";
 import ServiceDetails from "~/components/Section/Common/ServiceDetails";

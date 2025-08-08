@@ -24,6 +24,7 @@ const ContactPage = () => {
           content="Reach out to One Click Handling for rapid handling support and transport solutions across the UK and EU."
         />
         <meta property="og:image" content="/img/logo.png" />
+        <link rel="canonical" href="https://oneclickhandling.co.uk/contact" />
         <meta
           name="keywords"
           content="contact transport and handling, warehousing contact, transport enquiries, Heathrow logistics, One Click Handling contact"

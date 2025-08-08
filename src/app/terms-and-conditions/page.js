@@ -1,4 +1,5 @@
 "use client";
+import Head from "next/head";
 import FooterThree from "~/components/Section/Common/Footer/FooterThree";
 import PageHeader from "~/components/Section/Common/PageHeader";
 import { HeaderFour } from "~/components/Section/Common/Header";
@@ -7,6 +8,9 @@ import CtaThree from "~/components/Section/Common/Cta/CtaThree";
 const TermsAndConditions = () => {
   return (
     <div className="body-dark-bg">
+      <Head>
+        <link rel="canonical" href="https://oneclickhandling.co.uk/terms-and-conditions" />
+      </Head>
       <HeaderFour />
       <PageHeader title="Terms & Conditions" />
 

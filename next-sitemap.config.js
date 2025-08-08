@@ -1,5 +1,5 @@
 // next-sitemap.config.js
 module.exports = {
-  siteUrl: 'https://www.oneclickhandling.co.uk',
+  siteUrl: 'https://oneclickhandling.co.uk',
   generateRobotsTxt: true,
 };

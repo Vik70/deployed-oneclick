@@ -31,7 +31,7 @@ export default function Home() {
           content="Same-day delivery, secure warehousing, customs clearance, and more. Trusted logistics partner near Heathrow."
         />
         <meta property="og:image" content="/img/logo.png" />
-        <meta property="og:url" content="https://www.oneclickhandling.co.uk" />
+        <meta property="og:url" content="https://oneclickhandling.co.uk" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -47,8 +47,8 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "One Click Handling",
-              url: "https://www.oneclickhandling.co.uk",
-              logo: "https://www.oneclickhandling.co.uk/img/logo/ochmainlogo1.png",
+              url: "https://oneclickhandling.co.uk",
+              logo: "https://oneclickhandling.co.uk/img/logo/ochmainlogo1.png",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+44-333-404-0298",
