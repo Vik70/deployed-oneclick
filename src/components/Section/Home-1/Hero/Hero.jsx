@@ -16,7 +16,7 @@ const Hero = () => {
         <div
           className="image-layer"
           style={{
-            backgroundImage: "url(/img/background/background1.png)",
+            backgroundImage: "url(/img/background/newestbg.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             position: "absolute",
