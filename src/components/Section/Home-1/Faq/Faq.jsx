@@ -46,8 +46,7 @@ If your requirement is not covered by our <Link href="/rate-card">Rate Card</Lin
                   <Accordion.Body>
                     <span>Answer:</span>
                     <p>
-We offer international solutions via our partner network. Please contact us with your route and service needs for a tailored plan.
-                    </p>
+                    We provide road transport throughout the European Union.                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">

@@ -16,7 +16,13 @@ export default function AccountFormPage() {
       <PageHeader title="Account Form" />
       <section style={{ padding: "80px 20px" }}>
         <div className="container" style={{ maxWidth: 900, margin: "0 auto" }}>
-          <p>Please email <a href="mailto:operations@oneclickhandling.co.uk">operations@oneclickhandling.co.uk</a> to open an account.</p>
+          <p>
+            Download our credit account application form here: {" "}
+            <a href="/documents/credit_account_application_och.pdf" target="_blank" rel="noopener noreferrer">Credit Account Application (PDF)</a>
+          </p>
+          <p>
+            Alternatively, email <a href="mailto:operations@oneclickhandling.co.uk">operations@oneclickhandling.co.uk</a> and we&#39;ll assist you.
+          </p>
         </div>
       </section>
       <FooterThree />

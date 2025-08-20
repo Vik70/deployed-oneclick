@@ -102,7 +102,7 @@ const Header = () => {
                                                                     <div className="icon-box">
                                                                         <span className="icon-pin"></span>
                                                                     </div>
-                                                                    <p style={{ margin: 0 }}><a href="https://www.google.com/maps?q=Unit+6+Mercury+Centre,+Feltham+Trading+Estate,+TW14+0RN" target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a> </p>
+                                                                    <p style={{ margin: 0 }}><a href="https://www.google.com/maps/place/One+Click+Handling/@51.4598591,-0.4115577,16z/data=!4m9!1m2!2m1!1sUnit+6+Mercury+Centre,+Feltham+Trading+Estate,+TW14+0RN!3m5!1s0x48767305975e1629:0xa94c418d19b82d16!8m2!3d51.4609171!4d-0.4105677!16s%2Fg%2F11xl40986_?entry=ttu&g_ep=EgoyMDI1MDgxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a> </p>
                                                                 </li>
                                                                 <li style={{ display: 'flex', alignItems: 'center', minWidth: 'fit-content' }}>
                                                                     <div className="icon-box">
@@ -197,7 +197,7 @@ const Header = () => {
                                                         <Link href="#" className="main-menu__search search-toggler icon-magnifying-glass" onClick={togglePopup}></Link>
                                                     </div>
                                                     <div className="btn-box">
-                                                        <Link className="thm-btn" href="mailto:sales@oneclickhandling.co.uk">
+                                                        <Link className="thm-btn" href="mailto:info@oneclickhandling.co.uk">
                                                             <span className="txt">Get a Quote</span>
                                                             <i className="icon-right-arrow"></i>
                                                         </Link>

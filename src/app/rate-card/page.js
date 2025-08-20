@@ -16,7 +16,7 @@ export default function RateCardPage() {
       <PageHeader title="Rate Card" />
       <section style={{ padding: "80px 20px" }}>
         <div className="container" style={{ maxWidth: 900, margin: "0 auto" }}>
-          <p>Please contact <a href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</a> for our latest rate card.</p>
+          <p>Please contact <a href="mailto:info@oneclickhandling.co.uk">info@oneclickhandling.co.uk</a> for our latest rate card.</p>
         </div>
       </section>
       <FooterThree />

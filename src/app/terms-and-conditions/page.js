@@ -21,7 +21,7 @@ const TermsAndConditions = () => {
             Our services are supplied under the British International Freight Association (BIFA) Standard Trading Conditions (2021).
           </p>
           <p>
-            Read the full terms here: <a href="https://www.bifa.org/media/46250/bifa-stc-2021.pdf" target="_blank" rel="noopener noreferrer">BIFA STC 2021 (PDF)</a>.
+            Read the full terms here: <a href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank" rel="noopener noreferrer">BIFA STC 2021 (PDF)</a>.
           </p>
         </div>
       </section>
