@@ -84,10 +84,10 @@ const FooterThree = () => {
                     <h2>Quick Links</h2>
                   </div>
                   <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/about">About Us</Link></li>
-                    <li><Link href="/services">Our Services</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href="/documents/och-brochure.pdf" target="_blank">Brochure</Link></li>
+                    <li><Link href="/rate-card">Rate Card</Link></li>
+                    <li><Link href="/account-form">Account form</Link></li>
+                    <li><Link href="/terms-and-conditions">Terms &amp; Conditions</Link></li>
                   </ul>
                 </div>
               </div>

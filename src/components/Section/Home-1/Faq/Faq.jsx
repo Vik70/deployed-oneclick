@@ -21,20 +21,20 @@ const Faq = () => {
                 <div className="sub-title">
                   <h5><span className="icon-right-arrow-1"></span>FAQ</h5>
                 </div>
-                <h2>How can we help you</h2>
+                <h2>How can we help you?</h2>
               </div>
               <Accordion defaultActiveKey="0" className='accrodion-grp faq-one__accrodion accordion-one'>
                 <Accordion.Item eventKey="0" >
                   <Accordion.Header >
                     <h2>
                       <span>01.</span> How can I get a quote for your services?
-
                     </h2>
                   </Accordion.Header>
                   <Accordion.Body>
                     <span>Answer:</span>
                     <p>
-You can request a free quote by visiting our contact page or calling us.                    </p>
+If your requirement is not covered by our <Link href="/rate-card">Rate Card</Link>, solutions and pricing are just a phone call or an email away. Alternatively, please complete our enquiry form, and our sales team will respond within 1 working day.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
@@ -46,7 +46,8 @@ You can request a free quote by visiting our contact page or calling us.        
                   <Accordion.Body>
                     <span>Answer:</span>
                     <p>
-Yes, we provide global logistics solutions.                    </p>
+We offer international solutions via our partner network. Please contact us with your route and service needs for a tailored plan.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
@@ -58,7 +59,8 @@ Yes, we provide global logistics solutions.                    </p>
                   <Accordion.Body>
                     <span>Answer:</span>
                     <p>
-We implement security protocols including X-Ray screening and real-time tracking.                    </p>
+Shipments are managed in compliance with the UK Aviation Security Act regulations.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
@@ -76,13 +78,14 @@ We implement security protocols including X-Ray screening and real-time tracking
                 <Accordion.Item eventKey="4">
                   <Accordion.Header >
                     <h2>
-                      <span>05.</span>  What is your policy on handling pharmaceutical products?
+                      <span>05.</span>  What is your policy on handling medical or pharmaceutical products?
                     </h2>
                   </Accordion.Header>
                   <Accordion.Body>
                     <span>Answer:</span>
                     <p>
-We follow strict guidelines including temperature control and compliance with regulations                  </p>
+Shipments are managed in compliance with the Medicines &amp; Healthcare products Regulatory Agency (MHRA), Good Delivery Practices (GDP) protocols.
+                  </p>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -95,8 +98,8 @@ We follow strict guidelines including temperature control and compliance with re
               data-wow-delay=".3s"
             >
               <div className="title-box">
-                <p>Let’s Talk</p>
-                <h3>Need any help? Don't hesitate to reach out to us</h3>
+                <p>Let&#39;s Talk</p>
+                <h3>Need any help? Don&#39;t hesitate to reach out to us</h3>
               </div>
 
               <div className="faq-one__contact-info-number">

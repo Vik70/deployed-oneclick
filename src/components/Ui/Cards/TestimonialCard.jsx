@@ -14,8 +14,7 @@ const TestimonialCard = ({ item }) => {
           </div> */}
 
           <div className="title-box">
-            <h2 style={{ fontSize: '1.2em', marginBottom: '10px' }}>{item?.author}</h2>
-            <p style={{ fontSize: '0.9em', color: '#666' }}>{item?.position} {item?.company && `| ${item?.company}`}</p>
+            <h2 style={{ fontSize: '1.2em', marginBottom: '10px', textTransform: 'none' }}>{item?.author}</h2>
           </div>
         </div>
 
@@ -23,7 +22,7 @@ const TestimonialCard = ({ item }) => {
           <div className="content-box">
             <div className="content-box-top">
               <div className="text-box">
-                <h3 style={{ fontSize: '0.9em', lineHeight: '1.4em' }}>{item?.text}</h3>
+                <h3 style={{ fontSize: '0.95em', lineHeight: '1.6em', textTransform: 'none' }}>{item?.text}</h3>
               </div>
             </div>
           </div>

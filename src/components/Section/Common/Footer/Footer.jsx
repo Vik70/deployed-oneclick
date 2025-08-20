@@ -52,22 +52,16 @@ const Footer = () => {
                   <div className="footer-widget__links-box">
                     <ul>
                       <li>
-                        <Link href="/">Home</Link>
+                        <Link href="/documents/och-brochure.pdf" target="_blank">Brochure</Link>
                       </li>
                       <li>
-                        <Link href="/about">About Us</Link>
+                        <Link href="/rate-card" >Rate Card</Link>
                       </li>
                       <li>
-                        <Link href="/services">Our Services</Link>
+                        <Link href="/account-form">Account form</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Contact</Link>
-                      </li>
-                      <li>
-                        <Link href="/about#mission">Our Mission</Link>
-                      </li>
-                      <li>
-                        <Link href="/about#team">Our Team</Link>
+                        <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
                       </li>
                     </ul>
                   </div>

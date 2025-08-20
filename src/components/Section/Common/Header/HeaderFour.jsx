@@ -102,7 +102,7 @@ const HeaderFour = () => {
             <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
                 <div className="main-header-two__outer">
                     <div className="logo-box-two">
-                        <Link href="/"><img src="/img/logo/ochmainlogo1.png" alt="Logo" /></Link>
+                        <Link href="/"><img src="/img/logo/och_handle.svg" alt="One Click Handling – Let us handle it." style={{ height: '350px', width: 'auto' }} /></Link>
                     </div>
                     <div className="menu-area__inner">
                         <div className="mobile-nav-toggler" onClick={mobileMenuOpen}><i className="fas fa-bars"></i></div>
@@ -121,7 +121,7 @@ const HeaderFour = () => {
                                                         <li>
                                                             <div className="icon-box"><span className="icon-pin"></span>
                                                             </div>
-                                                            <p>Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN </p>
+                                                            <p><a href="https://www.google.com/maps?q=Unit+6+Mercury+Centre,+Feltham+Trading+Estate,+TW14+0RN" target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a></p>
                                                         </li>
                                                         <li>
                                                             <div className="icon-box"><span className="icon-paper-plane"></span>
@@ -157,7 +157,7 @@ const HeaderFour = () => {
 
 
                                                     <div className="btn-box">
-                                                        <Link href="contact">Get a Free Quote <span
+                                                        <Link href="mailto:sales@oneclickhandling.co.uk">Get a Quote <span
                                                             className="icon-right-arrow"></span></Link>
                                                     </div>
                                                 </div>
@@ -198,6 +198,13 @@ const HeaderFour = () => {
                                                         activeClasses="active"
                                                         text="Contact"
                                                         href="/contact"
+                                                        liClassName=""
+                                                    />
+                                                    <Navlink
+                                                        className=""
+                                                        activeClasses="active"
+                                                        text="News"
+                                                        href="/news"
                                                         liClassName=""
                                                     />
 
@@ -279,7 +286,7 @@ const HeaderFour = () => {
                         <nav className="menu-box">
                             <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose}><i className="fas fa-times"></i></div>
                             <div className="nav-logo">
-                                <Link href="/"><img src="/img/logo/ochmainlogo1.png" alt="OCH Logo" /></Link>
+                                <Link href="/"><img src="/img/logo/och_handle.svg" alt="OCH Logo" style={{ height: '200px', width: 'auto' }} /></Link>
                             </div>
                             <div className="menu-outer">
                                 <ul className="navigation">
@@ -299,6 +306,7 @@ const HeaderFour = () => {
                                         </ul>
                                     </li>
                                     <li><Link href="/contact">Contact</Link></li>
+                                    <li><Link href="/news">News</Link></li>
                                 </ul>
                             </div>
                         </nav>

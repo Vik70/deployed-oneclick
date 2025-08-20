@@ -76,7 +76,7 @@ const Header = () => {
                                 backgroundImage: "url(/img/pattern/logo-box-one-pattern.png)"
                             }}
                         ></div>
-                        <Link href="/"><img src="/img/logo/ochmainlogo1.png" alt="Logo" /></Link>
+                        <Link href="/"><img src="/img/logo/och_handle.svg" alt="One Click Handling – Let us handle it." style={{ height: '350px', width: 'auto' }} /></Link>
                     </div>
                     <div className="main-header-one__right">
                         <div className="container">
@@ -102,7 +102,7 @@ const Header = () => {
                                                                     <div className="icon-box">
                                                                         <span className="icon-pin"></span>
                                                                     </div>
-                                                                    <p style={{ margin: 0 }}>Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN </p>
+                                                                    <p style={{ margin: 0 }}><a href="https://www.google.com/maps?q=Unit+6+Mercury+Centre,+Feltham+Trading+Estate,+TW14+0RN" target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a> </p>
                                                                 </li>
                                                                 <li style={{ display: 'flex', alignItems: 'center', minWidth: 'fit-content' }}>
                                                                     <div className="icon-box">
@@ -188,6 +188,7 @@ const Header = () => {
                                                                 </ul>
                                                             </li>
                                                             <li><Link href="/contact" onClick={mobileMenuClose}>Contact</Link></li>
+                                                            <li><Link href="/news" onClick={mobileMenuClose}>News</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -196,8 +197,8 @@ const Header = () => {
                                                         <Link href="#" className="main-menu__search search-toggler icon-magnifying-glass" onClick={togglePopup}></Link>
                                                     </div>
                                                     <div className="btn-box">
-                                                        <Link className="thm-btn" href="contact">
-                                                            <span className="txt">Get Free Quote</span>
+                                                        <Link className="thm-btn" href="mailto:sales@oneclickhandling.co.uk">
+                                                            <span className="txt">Get a Quote</span>
                                                             <i className="icon-right-arrow"></i>
                                                         </Link>
                                                     </div>
@@ -213,7 +214,7 @@ const Header = () => {
                                 <nav className="menu-box">
                                     <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose}><i className="fas fa-times"></i></div>
                                     <div className="nav-logo">
-                                        <Link href="/"><img src="/img/logo/ochmainlogo1.png" alt="OCH Logo" /></Link>
+                                        <Link href="/"><img src="/img/logo/och_handle.svg" alt="OCH Logo" style={{ height: '400px', width: 'auto' }} /></Link>
                                     </div>
                                     <div className="menu-outer">
                                         <ul className="navigation">
@@ -234,6 +235,7 @@ const Header = () => {
                                                 </ul>
                                             </li>
                                             <li><Link href="/contact" onClick={mobileMenuClose}>Contact</Link></li>
+                                            <li><Link href="/news" onClick={mobileMenuClose}>News</Link></li>
                                         </ul>
                                     </div>
                                 </nav>
