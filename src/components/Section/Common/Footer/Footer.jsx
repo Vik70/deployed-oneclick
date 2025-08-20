@@ -58,10 +58,10 @@ const Footer = () => {
                         <Link href="/rate-card" >Rate Card</Link>
                       </li>
                       <li>
-                        <Link href="/account-form">Account form</Link>
+                        <Link href="/documents/credit_account_application_och.pdf" target="_blank">Account form</Link>
                       </li>
                       <li>
-                        <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
+                        <Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">Terms &amp; Conditions</Link>
                       </li>
                     </ul>
                   </div>

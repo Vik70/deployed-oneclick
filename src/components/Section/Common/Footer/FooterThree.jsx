@@ -86,8 +86,8 @@ const FooterThree = () => {
                   <ul>
                     <li><Link href="/documents/och-brochure.pdf" target="_blank">Brochure</Link></li>
                     <li><Link href="/rate-card">Rate Card</Link></li>
-                    <li><Link href="/account-form">Account form</Link></li>
-                    <li><Link href="/terms-and-conditions">Terms &amp; Conditions</Link></li>
+                    <li><Link href="/documents/credit_account_application_och.pdf" target="_blank">Account form</Link></li>
+                    <li><Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">BIFA Terms &amp; Conditions</Link></li>
                   </ul>
                 </div>
               </div>
@@ -157,7 +157,7 @@ const FooterThree = () => {
             {/* Static page links instead of modal buttons */}
             <div className="copyright-menu">
               <ul>
-                <li><Link href="/terms-and-conditions">Terms &amp; Conditions</Link></li>
+                <li><Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">Terms &amp; Conditions</Link></li>
                 <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                 <li><Link href="/support">Support</Link></li>
               </ul>
