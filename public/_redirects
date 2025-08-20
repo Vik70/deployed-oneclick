@@ -1,7 +1,0 @@
-# Allow direct access to the maintenance page itself
-/maintenance.html  /maintenance.html  200
-
-# Rewrite all routes to maintenance page and force (prevents framework handling)
-/*                 /maintenance.html  200!
-
-
