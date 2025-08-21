@@ -75,30 +75,13 @@ const Footer = () => {
                   </div>
                   <div className="footer-widget__links-box">
                     <ul>
-                      <li>
-                        <Link href="/pick-and-pack">Pick and Pack</Link>
-                      </li>
-                      <li>
-                        <Link href="/pharmaceutical">Pharmaceutical</Link>
-                      </li>
-                      <li>
-                        <Link href="/aog">AOG (Aircraft on Ground)</Link>
-                      </li>
-                      <li>
-                        <Link href="/time-critical-deliveries">Time Critical Deliveries</Link>
-                      </li>
-                      <li>
-                        <Link href="/on-board-courier">On Board Courier</Link>
-                      </li>
-                      <li>
-                        <Link href="/etsf">ETSF</Link>
-                      </li>
-                      <li>
-                        <Link href="/x-ray-screening">X-Ray Screening</Link>
-                      </li>
-                      <li>
-                        <Link href="/warehousing">Warehousing</Link>
-                      </li>
+                      <li><Link href="/security-screening">Security Screening</Link></li>
+                      <li><Link href="/uk-eu-transport">UK & EU Transport</Link></li>
+                      <li><Link href="/white-glove-service">White Glove Service</Link></li>
+                      <li><Link href="/etsf">ETSF</Link></li>
+                      <li><Link href="/warehousing">Warehousing & Storage</Link></li>
+                      <li><Link href="/pick-and-pack">Pick & Pack</Link></li>
+                      <li><Link href="/temperature-controlled-storage-transportation">Temperature Controlled</Link></li>
                     </ul>
                   </div>
                 </div>

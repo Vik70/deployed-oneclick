@@ -180,17 +180,16 @@ const HeaderFour = () => {
                                                         liClassName=""
                                                     />
 
-                                                    <li className={currentPath === "/services" || currentPath === "/pick-and-pack" || currentPath === "/pharmaceutical" || currentPath === "/aog" || currentPath === "/time-critical-deliveries" || currentPath === "/on-board-courier" || currentPath === "/etsf" || currentPath === "/x-ray-screening" || currentPath === "/warehousing" ? "active menu-item-has-children" : "menu-item-has-children"}>
+                                                    <li className={currentPath?.startsWith("/security-screening") || currentPath?.startsWith("/uk-eu-transport") || currentPath?.startsWith("/white-glove-service") || currentPath?.startsWith("/etsf") || currentPath?.startsWith("/warehousing") || currentPath?.startsWith("/pick-and-pack") || currentPath?.startsWith("/temperature-controlled-storage-transportation") ? "active menu-item-has-children" : "menu-item-has-children"}>
                                                         <Link href="/services">Services</Link>
                                                         <ul className="sub-menu">
-                                                            <li><Link href="/x-ray-screening" className={currentPath === "/x-ray-screening" ? "active" : ""}>X-Ray Screening</Link></li>
-                                                            <li><Link href="/time-critical-deliveries" className={currentPath === "/time-critical-deliveries" ? "active" : ""}>Time Critical Deliveries</Link></li>
-                                                            <li><Link href="/etsf" className={currentPath === "/etsf" ? "active" : ""}>ETSF</Link></li>
-                                                            <li><Link href="/pick-and-pack" className={currentPath === "/pick-and-pack" ? "active" : ""}>Pick and Pack</Link></li>
-                                                            <li><Link href="/pharmaceutical" className={currentPath === "/pharmaceutical" ? "active" : ""}>Pharmaceutical</Link></li>
-                                                            <li><Link href="/aog" className={currentPath === "/aog" ? "active" : ""}>AOG (Aircraft on Ground)</Link></li>
-                                                            <li><Link href="/on-board-courier" className={currentPath === "/on-board-courier" ? "active" : ""}>On Board Courier</Link></li>
-                                                            <li><Link href="/warehousing" className={currentPath === "/warehousing" ? "active" : ""}>Warehousing</Link></li>
+                                                            <li><Link href="/security-screening" className={currentPath === "/security-screening" ? "active" : ""}>Security Screening (Coming Soon)</Link></li>
+                                                            <li><Link href="/uk-eu-transport" className={currentPath === "/uk-eu-transport" ? "active" : ""}>UK & EU Transport</Link></li>
+                                                            <li><Link href="/white-glove-service" className={currentPath === "/white-glove-service" ? "active" : ""}>White Glove Service</Link></li>
+                                                            <li><Link href="/etsf" className={currentPath === "/etsf" ? "active" : ""}>ETSF (Coming Soon)</Link></li>
+                                                            <li><Link href="/warehousing" className={currentPath === "/warehousing" ? "active" : ""}>Warehousing & Storage</Link></li>
+                                                            <li><Link href="/pick-and-pack" className={currentPath === "/pick-and-pack" ? "active" : ""}>Pick & Pack</Link></li>
+                                                            <li><Link href="/temperature-controlled-storage-transportation" className={currentPath === "/temperature-controlled-storage-transportation" ? "active" : ""}>Temperature Controlled Storage & Transportation</Link></li>
                                                         </ul>
                                                     </li>
                                                     <Navlink

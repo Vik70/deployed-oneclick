@@ -1,130 +1,37 @@
 {
-  "pick-and-pack": {
-    "title": "Pick and Pack",
-    "description": "Our Pick and Pack service is built around precision and speed. We receive, store, and handle your inventory with care—picking items per order and packaging them securely with accurate labelling. This service is ideal for businesses needing tailored fulfilment without compromising accuracy or delivery times.",
-    "benefits": [
-      "Custom packaging solutions",
-      "Quality control checks",
-      "Flexible order processing"
-    ],
-    "howItWorks": [
-      "Receive and store inventory",
-      "Process customer orders",
-      "Pick items with precision",
-      "Pack with care and attention",
-      "Prepare for shipping"
-    ]
+  "security-screening": {
+    "title": "Security Screening (Coming Soon)",
+    "description": "At the heart of our growth strategy is a steadfast commitment to accreditation and infrastructure investment. A standout example is our official designation as a Regulated Agent, awarded under the Aviation Security (Air Cargo Agents) Regulations 2024—a mark of trust and compliance in today’s air freight landscape.\nComplementing this is our newly installed, state-of-the-art freight X-ray system, purpose-built for cargo screening. With the capability to scan items up to 180cm x 180cm and 3,000kg, this high-definition detector penetrates steel up to 5cm thick, dramatically reducing the need for secondary screening. The result? Faster processing, lower costs, and greater peace of mind for our customers.\nFor oversized or complex consignments, we also offer a full suite of ETD and FREDDS solutions—ensuring every shipment moves securely, efficiently, and in full regulatory alignment.",
+    "benefits": ["Regulated Agent designation", "High-definition screening", "ETD & FREDDS capability"]
   },
-  "pharmaceutical": {
-    "title": "Pharmaceutical",
-    "description": "We specialise in handling temperature-sensitive and regulated medical goods. From secure packaging to controlled storage and final delivery, our facilities and trained team ensure safe, compliant handling of all pharmaceutical shipments.",
-    "benefits": [
-      "Temperature-controlled storage",
-      "Regulatory compliance",
-      "Quality assurance"
-    ],
-    "howItWorks": [
-      "Temperature monitoring",
-      "Secure storage",
-      "Compliant handling",
-      "Documentation verification",
-      "Quality checks"
-    ]
+  "uk-eu-transport": {
+    "title": "UK & EU Transport",
+    "description": "With deep industry expertise and a commitment to reliability, our transport team is your trusted partner for seamless road logistics. We offer a comprehensive range of services tailored to your needs—from first and last mile coverage to time-critical deliveries, express shipments, groupage, and overnight options.\nWhether you're moving high-value goods or oversized cargo, we can arrange specialist vehicles including tail lifts, HIABs, Moffetts, and flatbeds, and more.\nLet us take the pressure off your supply chain. One email is all it takes to get moving.",
+    "benefits": ["First/last mile", "Time-critical & express", "Specialist vehicles"]
   },
-  "aog": {
-    "title": "AOG (Aircraft on Ground)",
-    "description": "Our AOG service is built for urgency. We provide immediate dispatch of aircraft components using direct transport and priority handling—minimising downtime and keeping your aircraft operations moving.",
-    "benefits": [
-      "24/7 emergency response",
-      "Priority handling",
-      "Rapid local delivery"
-    ],
-    "howItWorks": [
-      "Emergency request received",
-      "Immediate parts sourcing",
-      "Priority processing",
-      "Fast transportation",
-      "Direct delivery to aircraft"
-    ]
-  },
-  "time-critical-deliveries": {
-    "title": "Time Critical Deliveries",
-    "description": "When timing is non-negotiable, we deliver. Our team ensures fast road transport across the UK and EU, using dedicated vehicles and live tracking to meet your deadline-driven delivery needs.",
-    "benefits": [
-      "Guaranteed delivery times",
-      "Real-time tracking",
-      "Direct-to-door transport"
-    ],
-    "howItWorks": [
-      "Priority booking",
-      "Dedicated handling",
-      "Live tracking",
-      "Direct delivery",
-      "Proof of delivery"
-    ]
-  },
-  "on-board-courier": {
-    "title": "On Board Courier",
-    "description": "We assign a personal courier to carry your urgent or sensitive shipment on a commercial flight, keeping it under constant supervision. From collection to delivery, the item never leaves their hands—offering maximum security and traceability.",
-    "benefits": [
-      "Personal handling",
-      "Real-time updates",
-      "Maximum security"
-    ],
-    "howItWorks": [
-      "Courier assigned",
-      "Item handover",
-      "Accompanied travel",
-      "Delivery confirmation",
-      "Proof of receipt"
-    ]
+  "white-glove-service": {
+    "title": "White Glove Service",
+    "description": "When it comes to fragile or high-value cargo, our premium final-mile service delivers more than just goods—it delivers confidence. Designed for precision and care, we offer a full suite of specialist options including air-ride vehicles, multi-person delivery teams, and white-glove services such as unpacking, assembly, installation, and debris removal.\nPerfect for retail fitouts, high-end installations, and bespoke deliveries anywhere in the world, each item is handled with meticulous attention—aligned to your exact specifications and design intent.\nFrom first touch to final placement, we ensure your cargo arrives not just safely, but seamlessly.",
+    "benefits": ["Air-ride vehicles", "Multi-person teams", "Unpack/assemble/install"]
   },
   "etsf": {
-    "title": "ETSF (External Temporary Storage Facility)",
-    "description": "Our ETSF facility offers secure storage for import cargo under customs control. We manage your documentation, provide status updates, and ensure fast release once clearance is granted—keeping delays to a minimum.",
-    "benefits": [
-      "Customs-approved facility",
-      "Streamlined processing",
-      "Reduced delays"
-    ],
-    "howItWorks": [
-      "Cargo reception",
-      "Customs documentation",
-      "Secure storage",
-      "Processing and clearance",
-      "Release and delivery"
-    ]
-  },
-  "x-ray-screening": {
-    "title": "X-Ray Screening",
-    "description": "We provide aviation-grade X-ray screening for cargo, ensuring it complies with airport and airline safety regulations. Our certified team uses advanced scanning technology for fast, secure inspections.",
-    "benefits": [
-      "Certified screening",
-      "Advanced equipment",
-      "Security compliance"
-    ],
-    "howItWorks": [
-      "Cargo reception",
-      "Security screening",
-      "Detailed inspection",
-      "Documentation",
-      "Clearance and release"
-    ]
+    "title": "ETSF (External Temporary Storage Facility) (Coming Soon)",
+    "description": "Our ETSF Bonded facility offers importers a strategic advantage—allowing goods to be stored securely without immediate customs clearance. This means duty and VAT are deferred until items enter free circulation in the UK, supporting stronger cash flow management and operational flexibility.\nIdeal for shipments destined for re-export, our bonded setup eliminates the need for import clearance, streamlining your global movements. And when cargo is ready for uplift or delivery, our customs clearance badges ensure fast, frictionless processing—keeping your freight on schedule and your supply chain moving.\nEfficient. Compliant. Cost-effective. That’s bonded warehousing, redefined.",
+    "benefits": ["Deferred duty/VAT", "Re-export friendly", "Fast clearance"]
   },
   "warehousing": {
-    "title": "Warehousing",
-    "description": "Our storage facilities are built for safe handling and flexible access. We manage palletised goods, process orders, and provide services like PMC build-ups and secure inventory control—whether for short-term holding or longer storage.",
-    "benefits": [
-      "Secure storage",
-      "Expert handling",
-      "Inventory management"
-    ],
-    "howItWorks": [
-      "Cargo reception",
-      "Storage allocation",
-      "Inventory tracking",
-      "Order processing",
-      "Dispatch preparation"
-    ]
+    "title": "Warehousing & Storage",
+    "description": "Our London Heathrow facility sets a new benchmark in air cargo warehousing. Nestled just 1km from the airport, within the heart of Heathrow’s cargo operating zone, it offers rapid access to LHR terminals and the UK’s motorway network—ensuring your goods move swiftly and securely.\nThe newly refurbished 1,100m² warehouse features modern offices and a high-security environment, with 400 pallet positions and a total storage capacity exceeding 500,000kg. Every item arriving is promptly checked in, stored with precision, and made readily available for onward processing or dispatch.\nWe provide regular, transparent reporting, giving you full visibility and confidence that your inventory is in expert hands—streamlined, safeguarded, and always ready to move.",
+    "benefits": ["Near Heathrow", "Secure, modern facility", "400 pallet positions"]
+  },
+  "pick-and-pack": {
+    "title": "Pick & Pack",
+    "description": "Complementing our storage product is our comprehensive Pick & Pack service. Stock items are picked and packed on the day of the order and dispatched through a range of cost-effective final-mile delivery solutions, tailored to each client’s requirements. We can work with your branded packaging materials or provide a wide range of professional-quality options to ensure your customers receive orders in the best possible condition. Our up-to-date software provides live stock information and delivery tracking.",
+    "benefits": ["Same-day pick & pack", "Branded or supplied packaging", "Live stock & tracking"]
+  },
+  "temperature-controlled": {
+    "title": "Temperature Controlled Storage & Transportation",
+    "description": "We provide reliable, chilled and frozen road transport solutions tailored to meet the stringent demands of pharmaceutical and perishable logistics. Our Class 1 refrigerated trailer, rated from -20°C to +20°C, ensures precise temperature control throughout transit.\nBacked by Good Distribution Practice (GDP) compliance, our operations safeguard product integrity across the supply chain. We also offer access to a wide range of specialist vehicles and validated cold storage options, supporting end-to-end temperature-sensitive transport with full regulatory alignment.\nWhether you're moving medicines, vaccines, or perishables, we deliver with confidence, care, and compliance.",
+    "benefits": ["-20°C to +20°C", "GDP compliant", "Cold storage options"]
   }
 }

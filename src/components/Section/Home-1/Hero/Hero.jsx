@@ -16,7 +16,7 @@ const Hero = () => {
         <div
           className="image-layer"
           style={{
-            backgroundImage: "url(/img/background/newestbg.jpg)",
+            backgroundImage: "url(/img/background/boxes-bg.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             position: "absolute",
@@ -48,13 +48,10 @@ const Hero = () => {
             <div className="main-slider-one__content">
        
               <h2>
-                Global <span>Reach</span>, <br />
-                Local <span>Care</span>
+                Neutral, Nimble, and <span>Built for Forwarders</span>
               </h2>
               <p>
-                At One Click Handling, we bridge distances with precision and reliability.
-                Our seamless handling solutions ensure your cargo reaches its destination
-                safely and on time – no matter where in the world your business operates.
+                Welcome to One Click Handling, a dynamic new cargo handling organisation created to serve the UK’s freight forwarding community with precision, flexibility, and trust. Operating 24/7, we deliver a suite of asset-driven services tailored for both general and specialist cargo—ensuring your shipments are handled with care, speed, and full operational support.
               </p>
               <div className="btn-box">
                 <Link className="thm-btn" href="/">

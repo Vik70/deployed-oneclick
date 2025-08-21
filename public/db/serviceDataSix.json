@@ -1,61 +1,51 @@
 [
-   {
-    "image": "/img/service/xray.png",
+  {
+    "image": "/img/service/service_screening.png",
     "icon": "/img/icon/services/road-freight.png",
-    "title": "X-Ray Screening",
-    "description": "Certified X-ray screening services ensuring compliance with aviation security standards and the safe, secure movement of your goods.",
-    "link": "x-ray-screening"
+    "title": "Security Screening (Coming Soon)",
+    "description": "Regulated Agent status and a state-of-the-art X-ray system capable of 180cm x 180cm and 3,000kg scans, plus ETD and FREDDS solutions...",
+    "link": "security-screening"
   },
   {
-    "image": "/img/service/tcd.png",
+    "image": "/img/service/uk_eu_transport.webp",
     "icon": "/img/icon/services/road-freight.png",
-    "title": "Time Critical Deliveries (UK & EU)",
-    "description": "Rapid, dependable delivery of urgent shipments across the UK and Europe, ensuring your deadlines are always met.",
-    "link": "time-critical-deliveries"
+    "title": "UK & EU Transport",
+    "description": "Comprehensive road logistics across the UK and EU—from first/last mile to time-critical, express, groupage, and overnight options...",
+    "link": "uk-eu-transport"
+  },
+  {
+    "image": "/img/service/white_glove.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "White Glove Service",
+    "description": "Premium final-mile for high-value and fragile items, including air-ride vehicles, multi-person teams, and unpack/assembly/installation...",
+    "link": "white-glove-service"
   },
   {
     "image": "/img/service/etsf.png",
     "icon": "/img/icon/services/road-freight.png",
-    "title": "ETSF (External Temporary Storage Facility)",
-    "description": "Manage your import cargo under customs control with our fully approved ETSF, streamlining processing and minimizing delays.",
+    "title": "ETSF (Coming Soon)",
+    "description": "Deferred duty/VAT with secure bonded storage, re-export friendly, and rapid processing via customs clearance badges...",
     "link": "etsf"
   },
   {
-    "image": "/img/service/pandp.png",
+    "image": "/img/service/warehousing_storage.jpg",
     "icon": "/img/icon/services/road-freight.png",
-    "title": "Pick and Pack",
-    "description": "Custom pick and pack services designed for accuracy, speed, and flexibility, supporting your business with tailored order fulfilment.",
+    "title": "Warehousing & Storage",
+    "description": "Near-Heathrow secure, modern facility with 400 pallet positions and >500,000kg capacity—fast access to LHR terminals and UK motorways...",
+    "link": "warehousing"
+  },
+  {
+    "image": "/img/service/pick_and_pack.png",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Pick & Pack",
+    "description": "Same-day pick and pack with branded or supplied packaging and live stock/tracking—dispatch via cost-effective final-mile options...",
     "link": "pick-and-pack"
   },
   {
-    "image": "/img/service/pharm.png",
+    "image": "/img/service/temp_controlled.png",
     "icon": "/img/icon/services/road-freight.png",
-    "title": "Pharmaceutical",
-    "description": "Specialist pharmaceutical logistics with compliant storage, handling, and final delivery—ensuring product integrity from start to finish.",
-    "link": "pharmaceutical"
-  },
-  {
-    "image": "/img/service/aog.png",
-    "icon": "/img/icon/services/road-freight.png",
-    "title": "AOG (Aircraft on Ground)",
-    "description": "Specialist support for urgent aircraft parts, minimizing downtime with priority handling and delivery to keep your operations running smoothly.",
-    "link": "aog"
-  },
-  
-  {
-    "image": "/img/service/obc.png",
-    "icon": "/img/icon/services/road-freight.png",
-    "title": "On Board Courier",
-    "description": "Personal courier services for your most sensitive shipments, providing real-time updates and secure hand-delivery anywhere in the world.",
-    "link": "on-board-courier"
-  },
-  
- 
-  {
-    "image": "/img/service/warehouse.png",
-    "icon": "/img/icon/services/road-freight.png",
-    "title": "Warehousing",
-    "description": "Comprehensive warehousing solutions, including expert palletisation, PMC build-ups, and flexible storage options to protect your cargo at every stage.",
-    "link": "warehousing"
+    "title": "Temperature Controlled Storage & Transportation",
+    "description": "Chilled and frozen transport from -20°C to +20°C, GDP compliant operations, and access to validated cold storage and specialist vehicles...",
+    "link": "temperature-controlled-storage-transportation"
   }
 ]
