@@ -13,9 +13,6 @@ const ServiceCard = ({ item }) => {
       <div className="service-one__single-img" style={{ height: 260, overflow: 'hidden' }}>
         <div className="inner" style={{ height: '100%' }}>
           <img src={item?.image} alt="#" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
-          <div className="overlay-icon">
-            <img src={item?.icon} alt="#" />
-          </div>
         </div>
       </div>
       <div className="service-one__single-content" style={{ display: 'flex' }}>

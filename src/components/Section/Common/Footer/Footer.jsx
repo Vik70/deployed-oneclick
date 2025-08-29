@@ -6,6 +6,22 @@ import BrandLogo from "~/components/Ui/Logo/BrandLogo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [showAccountModal, setShowAccountModal] = React.useState(false);
+  const [pendingHref, setPendingHref] = React.useState(null);
+
+  const onAccountClick = (e) => {
+    e.preventDefault();
+    setPendingHref(e.currentTarget.getAttribute('href'));
+    setShowAccountModal(true);
+  };
+
+  const proceedDownload = () => {
+    if (pendingHref) {
+      window.open(pendingHref, '_blank', 'noopener');
+    }
+    setShowAccountModal(false);
+    setPendingHref(null);
+  };
   return (
     <footer className="footer-one">
       <ScrollToTop smooth top='80' color="white" style={{backgroundColor:"#014bde", "&:hover": { backgroundColor: "#186265" }}}/>
@@ -58,7 +74,7 @@ const Footer = () => {
                         <Link href="/rate-card" >Rate Card</Link>
                       </li>
                       <li>
-                        <Link href="/documents/credit_account_application_och.pdf" target="_blank">Account form</Link>
+                        <a href="/documents/credit_account_application_och.pdf" target="_blank" onClick={onAccountClick}>Account form</a>
                       </li>
                       <li>
                         <Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">Terms &amp; Conditions</Link>
@@ -158,6 +174,18 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    {showAccountModal && (
+      <div style={{position:'fixed', inset:0, background:'rgba(0,0,0,0.55)', display:'flex', alignItems:'center', justifyContent:'center', zIndex:9999}}>
+        <div style={{background:'#fff', color:'#111', maxWidth:520, width:'90%', padding:'24px', borderRadius:12, boxShadow:'0 10px 30px rgba(0,0,0,.35)'}}>
+          <h3 style={{margin:'0 0 12px', fontSize:22}}>Account Form</h3>
+          <p style={{margin:'0 0 18px', lineHeight:1.5}}>Please complete and sign me, then email to <a href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</a>.</p>
+          <div style={{display:'flex', gap:10, justifyContent:'flex-end'}}>
+            <button onClick={()=>{setShowAccountModal(false); setPendingHref(null);}} style={{padding:'10px 16px', borderRadius:8, border:'1px solid #d1d5db', background:'#fff', cursor:'pointer'}}>Cancel</button>
+            <button onClick={proceedDownload} style={{padding:'10px 16px', borderRadius:8, border:'none', background:'#014bde', color:'#fff', cursor:'pointer'}}>OK</button>
+          </div>
+        </div>
+      </div>
+    )}
   );
 };
 

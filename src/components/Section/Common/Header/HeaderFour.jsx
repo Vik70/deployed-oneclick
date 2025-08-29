@@ -102,7 +102,7 @@ const HeaderFour = () => {
             <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
                 <div className="main-header-two__outer">
                     <div className="logo-box-two">
-                        <Link href="/"><img src="/img/logo/och_handle.svg" alt="One Click Handling – Let us handle it." style={{ height: '350px', width: 'auto' }} /></Link>
+                        <Link href="/"><img src="/img/logo/och_handle.svg" alt="One Click Handling – Let us handle it." style={{ height: '250px', width: 'auto' }} /></Link>
                     </div>
                     <div className="menu-area__inner">
                         <div className="mobile-nav-toggler" onClick={mobileMenuOpen}><i className="fas fa-bars"></i></div>
@@ -121,7 +121,7 @@ const HeaderFour = () => {
                                                         <li>
                                                             <div className="icon-box"><span className="icon-pin"></span>
                                                             </div>
-                                                            <p><a href="https://www.google.com/maps/place/One+Click+Handling/@51.4598591,-0.4115577,16z/data=!4m9!1m2!2m1!1sUnit+6+Mercury+Centre,+Feltham+Trading+Estate,+TW14+0RN!3m5!1s0x48767305975e1629:0xa94c418d19b82d16!8m2!3d51.4609171!4d-0.4105677!16s%2Fg%2F11xl40986_?entry=ttu&g_ep=EgoyMDI1MDgxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a></p>
+                                                            <p><a href="https://www.google.co.uk/maps/place/One+Click+Handling/@51.4609171,-0.4131426,17z/data=!3m1!4b1!4m6!3m5!1s0x48767305975e1629:0xa94c418d19b82d16!8m2!3d51.4609171!4d-0.4105677!16s%2Fg%2F11xl40986_?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D " target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a></p>
                                                         </li>
                                                         <li>
                                                             <div className="icon-box"><span className="icon-paper-plane"></span>

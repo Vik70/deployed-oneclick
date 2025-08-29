@@ -35,31 +35,6 @@ const BrochureCard = () => {
             </a>
           </div>
         </div>
-
-        <div className="sidebar__brochure-single">
-          <div className="left-content">
-            <div className="icon">
-              <img src="/img/icon/sidebar-icon2.png" alt="" />
-            </div>
-            <div className="text-box">
-              <h4>Company Profile</h4>
-              <ul>
-                <li>
-                  <p>PDF</p>
-                </li>
-                <li>
-                  <p>25 MB</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="btn-box">
-            <a href="/documents/company-profile.pdf" target="_blank" rel="noopener noreferrer" download>
-              <span className="icon-right-arrow-5"></span>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );

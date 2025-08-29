@@ -47,8 +47,8 @@ const Hero = () => {
           <div className="main-slider-one__single padding">
             <div className="main-slider-one__content">
        
-              <h2>
-                Neutral, Nimble, and <span>Built for Forwarders</span>
+              <h2 style={{ color: '#1e3a8a', textShadow: '2px 2px 0 #ffffff, -2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px -2px 0 #ffffff, 0 2px 0 #ffffff, 2px 0 0 #ffffff, 0 -2px 0 #ffffff, -2px 0 0 #ffffff' }}>
+                Neutral, Nimble, and <span style={{ color: '#1e3a8a' }}>Built for Forwarders</span>
               </h2>
               <p>
                 Welcome to One Click Handling, a dynamic new cargo handling organisation created to serve the UK’s freight forwarding community with precision, flexibility, and trust. Operating 24/7, we deliver a suite of asset-driven services tailored for both general and specialist cargo—ensuring your shipments are handled with care, speed, and full operational support.
