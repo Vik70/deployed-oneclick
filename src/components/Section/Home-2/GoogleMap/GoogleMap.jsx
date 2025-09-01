@@ -37,7 +37,7 @@ export default function GoogleMap() {
                             <span  className="icon-paper-plane"></span>
                           </div>
                           <p>
-                            <Link href="mailto:operations@oneclickhandling.co.uk">operations@oneclickhandling.co.uk</Link>
+                            <Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link>
                           </p>
                         </li>
 

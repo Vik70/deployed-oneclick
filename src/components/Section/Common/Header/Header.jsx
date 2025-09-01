@@ -109,7 +109,7 @@ const Header = () => {
                                                                         <span className="icon-paper-plane"></span>
                                                                     </div>
                                                                     <p style={{ margin: 0 }}>
-                                                                        <Link href="mailto:operations@oneclickhandling.co.uk">operations@oneclickhandling.co.uk</Link>
+                                                                        <Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link>
                                                                     </p>
                                                                 </li>
                                                                 <li style={{ display: 'flex', alignItems: 'center', minWidth: 'fit-content', whiteSpace: 'nowrap' }}>
@@ -197,7 +197,7 @@ const Header = () => {
                                                         <Link href="#" className="main-menu__search search-toggler icon-magnifying-glass" onClick={togglePopup}></Link>
                                                     </div>
                                                     <div className="btn-box">
-                                                        <Link className="thm-btn" href="mailto:info@oneclickhandling.co.uk">
+                                                        <Link className="thm-btn" href="mailto:sales@oneclickhandling.co.uk">
                                                             <span className="txt">Get a Quote</span>
                                                             <i className="icon-right-arrow"></i>
                                                         </Link>

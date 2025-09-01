@@ -126,7 +126,7 @@ const HeaderFour = () => {
                                                         <li>
                                                             <div className="icon-box"><span className="icon-paper-plane"></span>
                                                             </div>
-                                                            <p><Link href="mailto:info@oneclickhandling.co.uk">info@oneclickhandling.co.uk</Link>
+                                                            <p><Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link>
                                                             </p>
                                                         </li>
                                                     </ul>
@@ -157,7 +157,7 @@ const HeaderFour = () => {
 
 
                                                     <div className="btn-box">
-                                                        <Link href="mailto:info@oneclickhandling.co.uk">Get a Quote <span
+                                                        <Link href="mailto:sales@oneclickhandling.co.uk">Get a Quote <span
                                                             className="icon-right-arrow"></span></Link>
                                                     </div>
                                                 </div>

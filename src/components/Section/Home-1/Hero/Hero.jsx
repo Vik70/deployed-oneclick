@@ -47,7 +47,7 @@ const Hero = () => {
           <div className="main-slider-one__single padding">
             <div className="main-slider-one__content">
        
-              <h2 style={{ color: '#1e3a8a', textShadow: '2px 2px 0 #ffffff, -2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px -2px 0 #ffffff, 0 2px 0 #ffffff, 2px 0 0 #ffffff, 0 -2px 0 #ffffff, -2px 0 0 #ffffff' }}>
+              <h2 style={{ color: '#1e3a8a', textShadow: '3px 2px 0 #ffffff, -3px 2px 0 #ffffff, 3px -2px 0 #ffffff, -3px -2px 0 #ffffff, 0 3px 0 #ffffff, 3px 0 0 #ffffff, 0 -3px 0 #ffffff, -3px 0 0 #ffffff' }}>
                 Neutral, Nimble, and <span style={{ color: '#1e3a8a' }}>Built for Forwarders</span>
               </h2>
               <p>

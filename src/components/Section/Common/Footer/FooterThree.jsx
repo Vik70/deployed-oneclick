@@ -69,8 +69,8 @@ const FooterThree = () => {
                             <div className="content-box">
                               <p>Email</p>
                               <h4>
-                                <Link href="mailto:operations@oneclickhandling.co.uk">
-                                  info@oneclickhandling.co.uk
+                                <Link href="mailto:sales@oneclickhandling.co.uk">
+                                  sales@oneclickhandling.co.uk
                                 </Link>
                               </h4>
                             </div>
