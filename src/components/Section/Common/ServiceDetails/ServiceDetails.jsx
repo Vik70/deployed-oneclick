@@ -60,7 +60,7 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
     "/temperature-controlled-storage-transportation",
   ];
   const servicesLabels = {
-    "/security-screening": "Security Screening (Coming Soon)",
+    "/security-screening": "Security Screening",
     "/uk-eu-transport": "UK & EU Transport",
     "/white-glove-service": "White Glove Service",
     "/etsf": "ETSF (Coming Soon)",
@@ -242,7 +242,7 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                 <ul className="sidebar__services-list">
                   <li>
                     <Link className={`${transportType === "security-screening" ? "active" : ""}`} href="/security-screening">
-                      Security Screening (Coming Soon)
+                      Security Screening
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>

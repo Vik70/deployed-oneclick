@@ -1,6 +1,6 @@
 {
   "security-screening": {
-    "title": "Security Screening (Coming Soon)",
+    "title": "Security Screening",
     "description": "At the heart of our growth strategy is a steadfast commitment to accreditation and infrastructure investment. A standout example is our official designation as a Regulated Agent, awarded under the Aviation Security (Air Cargo Agents) Regulations 2024—a mark of trust and compliance in today’s air freight landscape.\nComplementing this is our newly installed, state-of-the-art freight X-ray system, purpose-built for cargo screening. With the capability to scan items up to 180cm x 180cm and 3,000kg, this high-definition detector penetrates steel up to 5cm thick, dramatically reducing the need for secondary screening. The result? Faster processing, lower costs, and greater peace of mind for our customers.\nFor oversized or complex consignments, we also offer a full suite of ETD and FREDDS solutions—ensuring every shipment moves securely, efficiently, and in full regulatory alignment.",
     "benefits": ["Regulated Agent designation", "High-definition screening", "ETD & FREDDS capability"]
   },

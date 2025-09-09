@@ -26,6 +26,7 @@ const HeaderFour = () => {
     const [page, setPage] = useState(false);
     const [blog, setBlog] = useState(false);
     const [isOverlayActive, setIsOverlayActive] = useState(false);
+    
   
     const mobileMenuOpen = () => {
       setMobileMenu(true);
@@ -60,6 +61,7 @@ const HeaderFour = () => {
   document.body.classList.remove("disable-scroll");
 }, [pathname]);
 
+    
 
     const [scrollClassName, setScrollClassName] = useState("");
     useEffect(() => {
@@ -109,31 +111,38 @@ const HeaderFour = () => {
                         <div className="menu-wrap">
                             <nav className="menu-nav">
                                 <div className="main-header-two__inner">
-                                    <div className="main-header-two__top">
+                                    <div className="main-header-two__top" style={{ position: 'relative' }}>
+                                        <div aria-hidden="true" style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', top: 0, bottom: 0, width: '100vw', background: '#0a1333', zIndex: 0 }}></div>
                                         <div className="main-header-two__top-pattern"
-                                            style={{ backgroundImage: "url(/img/pattern/header-v2-pattern.png)" }} >
+                                            style={{ backgroundImage: "url(/img/pattern/header-v2-pattern.png)", position: 'relative', zIndex: 1 }} >
                                         </div>
 
-                                        <div className="main-header-two__top-inner">
+                                        <div className="main-header-two__top-inner" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px', flexWrap: 'nowrap', position: 'relative', zIndex: 1 }}>
                                             <div className="main-header-two__top-left">
                                                 <div className="header-contact-info">
                                                     <ul>
                                                         <li>
                                                             <div className="icon-box"><span className="icon-pin"></span>
                                                             </div>
-                                                            <p><a href="https://www.google.co.uk/maps/place/One+Click+Handling/@51.4609171,-0.4131426,17z/data=!3m1!4b1!4m6!3m5!1s0x48767305975e1629:0xa94c418d19b82d16!8m2!3d51.4609171!4d-0.4105677!16s%2Fg%2F11xl40986_?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D " target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a></p>
+                                                            <p style={{ whiteSpace: 'nowrap', margin: 0 }}><a href="https://www.google.co.uk/maps/place/One+Click+Handling/@51.4609171,-0.4131426,17z/data=!3m1!4b1!4m6!3m5!1s0x48767305975e1629:0xa94c418d19b82d16!8m2!3d51.4609171!4d-0.4105677!16s%2Fg%2F11xl40986_?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D " target="_blank" rel="noopener noreferrer">Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</a></p>
+                                                        </li>
+                                                        <li>
+                                                            <div className="icon-box"><span className="icon-checked-2"></span></div>
+                                                            <p style={{ margin: 0, whiteSpace: 'nowrap' }}>
+                                                                <span style={{ display: 'inline-block', background: '#FFD550', color: '#111', fontWeight: 800, padding: '6px 12px', borderRadius: 10 }}>Regulated Agent: GB/RA/01053-01</span>
+                                                            </p>
                                                         </li>
                                                         <li>
                                                             <div className="icon-box"><span className="icon-paper-plane"></span>
                                                             </div>
-                                                            <p><Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link>
+                                                            <p style={{ whiteSpace: 'nowrap', margin: 0 }}><Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link>
                                                             </p>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="main-header-two__top-right">
-                                                <div className="inner">
+                                                <div className="inner" style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'nowrap' }}>
                                                 <div className="header-social-links">
                                                 <ul>
                                                     <li>
@@ -157,8 +166,7 @@ const HeaderFour = () => {
 
 
                                                     <div className="btn-box">
-                                                        <Link href="mailto:sales@oneclickhandling.co.uk">Get a Quote <span
-                                                            className="icon-right-arrow"></span></Link>
+                                                        <Link href="mailto:sales@oneclickhandling.co.uk" style={{ whiteSpace: 'nowrap' }}>Get a Quote <span className="icon-right-arrow"></span></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -183,7 +191,7 @@ const HeaderFour = () => {
                                                     <li className={currentPath?.startsWith("/security-screening") || currentPath?.startsWith("/uk-eu-transport") || currentPath?.startsWith("/white-glove-service") || currentPath?.startsWith("/etsf") || currentPath?.startsWith("/warehousing") || currentPath?.startsWith("/pick-and-pack") || currentPath?.startsWith("/temperature-controlled-storage-transportation") ? "active menu-item-has-children" : "menu-item-has-children"}>
                                                         <Link href="/services">Services</Link>
                                                         <ul className="sub-menu">
-                                                            <li><Link href="/security-screening" className={currentPath === "/security-screening" ? "active" : ""}>Security Screening (Coming Soon)</Link></li>
+                                                            <li><Link href="/security-screening" className={currentPath === "/security-screening" ? "active" : ""}>Security Screening</Link></li>
                                                             <li><Link href="/uk-eu-transport" className={currentPath === "/uk-eu-transport" ? "active" : ""}>UK & EU Transport</Link></li>
                                                             <li><Link href="/white-glove-service" className={currentPath === "/white-glove-service" ? "active" : ""}>White Glove Service</Link></li>
                                                             <li><Link href="/etsf" className={currentPath === "/etsf" ? "active" : ""}>ETSF (Coming Soon)</Link></li>

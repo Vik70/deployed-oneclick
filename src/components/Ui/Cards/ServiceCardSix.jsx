@@ -13,7 +13,7 @@ const ServiceCardSix = ({ item }) => {
                     <div className="inner" style={{ height: '100%' }}>
                         <img src={item?.image} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         {/* Removed bottom-right overlay/icon box for cleaner image corners */}
-                        {(item?.title?.toLowerCase().includes('pharmaceutical') || item?.title?.toLowerCase().includes('e-commerce') || item?.title?.toLowerCase().includes('security screening') || item?.title?.toLowerCase().includes('etsf') || item?.title?.toLowerCase().includes('dangerous goods')) && (
+                        {(item?.title?.toLowerCase().includes('pharmaceutical') || item?.title?.toLowerCase().includes('e-commerce') || item?.title?.toLowerCase().includes('etsf') || item?.title?.toLowerCase().includes('dangerous goods')) && (
                           <div style={{ position: 'absolute', top: 12, left: 12, background: '#FFD550', color: '#000', padding: '6px 10px', fontWeight: 700, fontSize: 12, borderRadius: 4 }}>
                             Coming soon
                           </div>

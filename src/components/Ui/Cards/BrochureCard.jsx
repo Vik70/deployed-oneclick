@@ -30,7 +30,7 @@ const BrochureCard = () => {
           </div>
 
           <div className="btn-box">
-            <a href="/documents/och-brochure.pdf" target="_blank" rel="noopener noreferrer" download>
+            <a href="/documents/Website-Brochure.pdf" target="_blank" rel="noopener noreferrer" download>
               <span className="icon-right-arrow-5"></span>
             </a>
           </div>

@@ -68,13 +68,13 @@ const Footer = () => {
                   <div className="footer-widget__links-box">
                     <ul>
                       <li>
-                        <Link href="/documents/och-brochure.pdf" target="_blank">Brochure</Link>
+                        <Link href="/documents/Website-Brochure.pdf" target="_blank">Brochure</Link>
                       </li>
                       <li>
                         <Link href="/rate-card" >Rate Card</Link>
                       </li>
                       <li>
-                        <a href="/documents/credit_account_application_och.pdf" target="_blank" onClick={onAccountClick}>Account form</a>
+                        <a href="/documents/One Click Handling - Customer Credit Account Application V2.1 August 2025.pdf" target="_blank" onClick={onAccountClick}>Account form</a>
                       </li>
                       <li>
                         <Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">Terms &amp; Conditions</Link>
