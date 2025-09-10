@@ -86,7 +86,7 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                 <img src={(() => {
                   switch(transportType) {
                     case "security-screening":
-                      return "/img/service/service_screening.png";
+                      return "/img/service/security-screening.jpg";
                     case "uk-eu-transport":
                       return "/img/service/uk_eu_transport.webp";
                     case "white-glove-service":
