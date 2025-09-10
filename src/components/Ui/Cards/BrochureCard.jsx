@@ -23,7 +23,7 @@ const BrochureCard = () => {
                   <p>PDF</p>
                 </li>
                 <li>
-                  <p>79 MB</p>
+                  <p>3.2 MB</p>
                 </li>
               </ul>
             </div>
