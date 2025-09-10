@@ -3420,7 +3420,7 @@ Pricing One
 .pricing-one__single .table-header .img-box {
   position: relative;
   display: block;
-  background: #000000;
+  /* background: #000000; */
   overflow: hidden;
 }
 

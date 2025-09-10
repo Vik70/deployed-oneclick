@@ -1044,7 +1044,7 @@
 }
 
 .main-header-two__top-right .inner .btn-box a:hover::before {
-    background: #000000;
+    /* background: #000000; */
 }
 
 .main-header-two__top-right .inner .btn-box a span {

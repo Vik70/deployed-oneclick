@@ -54,7 +54,7 @@ const Hero = () => {
                 Welcome to One Click Handling, a dynamic new cargo handling organisation created to serve the UK’s freight forwarding community with precision, flexibility, and trust. Operating 24/7, we deliver a suite of asset-driven services tailored for both general and specialist cargo—ensuring your shipments are handled with care, speed, and full operational support.
               </p>
               <div className="btn-box">
-                <Link className="thm-btn" href="/">
+                <Link className="thm-btn" href="/contact">
                   <span className="txt">Contact Us</span>
                   <i className="icon-right-arrow"></i>
                 </Link>
