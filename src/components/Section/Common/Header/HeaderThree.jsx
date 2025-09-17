@@ -249,9 +249,9 @@ const HeaderThree = () => {
                                         <li><Link href="/services">Services</Link></li>
                                         <li><Link href="/pick-and-pack">Pick and Pack</Link></li>
                                         <li><Link href="/pharmaceutical">Pharmaceutical</Link></li>
-                                        <li><Link href="/aog">AOG (Aircraft on Ground)</Link></li>
+                                        
                                         <li><Link href="/time-critical-deliveries">Time Critical Deliveries</Link></li>
-                                        <li><Link href="/on-board-courier">On Board Courier</Link></li>
+                                        
                                         <li><Link href="/etsf">ETSF</Link></li>
                                         <li><Link href="/x-ray-screening">X-Ray Screening</Link></li>
                                         <li><Link href="/warehousing">Warehousing</Link></li>

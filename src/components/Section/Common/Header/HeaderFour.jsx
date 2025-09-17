@@ -103,8 +103,8 @@ const HeaderFour = () => {
         <header className="main-header main-header-two style4">
             <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
                 <div className="main-header-two__outer">
-                    <div className="logo-box-two">
-                        <Link href="/"><img src="/img/logo/och_handle.svg" alt="One Click Handling – Let us handle it." style={{ height: '250px', width: 'auto' }} /></Link>
+                    <div className="logo-box-two" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Link href="/"><img src="/img/logo/och_handle.svg" alt="One Click Handling – Let us handle it." style={{ height: '275px', width: 'auto', margin: '0 auto', display: 'block' }} /></Link>
                     </div>
                     <div className="menu-area__inner">
                         <div className="mobile-nav-toggler" onClick={mobileMenuOpen}><i className="fas fa-bars"></i></div>
@@ -304,9 +304,9 @@ const HeaderFour = () => {
                                         <ul className="sub-menu">
                                             <li><Link href="/pick-and-pack">Pick and Pack</Link></li>
                                             <li><Link href="/pharmaceutical">Pharmaceutical</Link></li>
-                                            <li><Link href="/aog">AOG (Aircraft on Ground)</Link></li>
+                                            
                                             <li><Link href="/time-critical-deliveries">Time Critical Deliveries</Link></li>
-                                            <li><Link href="/on-board-courier">On Board Courier</Link></li>
+                                            
                                             <li><Link href="/etsf">ETSF</Link></li>
                                             <li><Link href="/x-ray-screening">X-Ray Screening</Link></li>
                                             <li><Link href="/warehousing">Warehousing</Link></li>

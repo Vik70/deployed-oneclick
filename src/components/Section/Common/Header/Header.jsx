@@ -168,14 +168,9 @@ const Header = () => {
                                                                         <Link href="/pharmaceutical" onClick={mobileMenuClose}>Pharmaceutical</Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href="/aog" onClick={mobileMenuClose}>AOG (Aircraft on Ground)</Link>
-                                                                    </li>
-                                                                    <li>
                                                                         <Link href="/time-critical-deliveries" onClick={mobileMenuClose}>Time Critical Deliveries</Link>
                                                                     </li>
-                                                                    <li>
-                                                                        <Link href="/on-board-courier" onClick={mobileMenuClose}>On Board Courier</Link>
-                                                                    </li>
+                                                                    
                                                                     <li>
                                                                         <Link href="/etsf" onClick={mobileMenuClose}>ETSF</Link>
                                                                     </li>
@@ -226,9 +221,9 @@ const Header = () => {
                                                     <li><Link href="/services" onClick={mobileMenuClose}>Services</Link></li>
                                                     <li><Link href="/pick-and-pack" onClick={mobileMenuClose}>Pick and Pack</Link></li>
                                                     <li><Link href="/pharmaceutical" onClick={mobileMenuClose}>Pharmaceutical</Link></li>
-                                                    <li><Link href="/aog" onClick={mobileMenuClose}>AOG (Aircraft on Ground)</Link></li>
+                                                    
                                                     <li><Link href="/time-critical-deliveries" onClick={mobileMenuClose}>Time Critical Deliveries</Link></li>
-                                                    <li><Link href="/on-board-courier" onClick={mobileMenuClose}>On Board Courier</Link></li>
+                                                    
                                                     <li><Link href="/etsf" onClick={mobileMenuClose}>ETSF</Link></li>
                                                     <li><Link href="/x-ray-screening" onClick={mobileMenuClose}>X-Ray Screening</Link></li>
                                                     <li><Link href="/warehousing" onClick={mobileMenuClose}>Warehousing</Link></li>

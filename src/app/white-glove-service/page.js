@@ -1,6 +1,5 @@
 import FooterThree from "~/components/Section/Common/Footer/FooterThree";
 import PageHeader from "~/components/Section/Common/PageHeader";
-import Cta from "~/components/Section/Common/Cta";
 import ServiceDetails from "~/components/Section/Common/ServiceDetails";
 import { HeaderFour } from "~/components/Section/Common/Header";
 
@@ -15,7 +14,7 @@ export default function WhiteGloveServicePage() {
         <HeaderFour />
         <PageHeader title="White Glove Service" />
         <ServiceDetails title="White Glove Service" transportType="white-glove-service" />
-        <Cta />
+        
         <FooterThree />
       </div>
     </div>
