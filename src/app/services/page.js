@@ -25,7 +25,7 @@ export default function BlogDetailsPage() {
           property="og:description"
           content="Comprehensive transport and handling services tailored to your needs. Fast, secure, and reliable delivery across the UK and Europe."
         />
-        <meta property="og:image" content="/img/logo.png" />
+        <meta property="og:image" content="/img/logo/ochlogopng.png" />
         <link rel="canonical" href="https://oneclickhandling.co.uk/services" />
         <meta
           name="keywords"

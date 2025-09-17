@@ -49,35 +49,60 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
     return <div>Loading...</div>;
   }
 
+  // New services order and labels for previous/next navigation
+  const servicesOrder = [
+    "/security-screening",
+    "/uk-eu-transport",
+    "/white-glove-service",
+    "/etsf",
+    "/warehousing",
+    "/pick-and-pack",
+    "/temperature-controlled-storage-transportation",
+  ];
+  const servicesLabels = {
+    "/security-screening": "Security Screening",
+    "/uk-eu-transport": "UK & EU Transport",
+    "/white-glove-service": "White Glove Service",
+    "/etsf": "ETSF (Coming Soon)",
+    "/warehousing": "Warehousing & Storage",
+    "/pick-and-pack": "Pick & Pack",
+    "/temperature-controlled-storage-transportation": "Temperature Controlled Storage & Transportation",
+  };
+  const currentKey = transportType === "temperature-controlled" ? "temperature-controlled-storage-transportation" : transportType;
+  const currentPathForOrder = `/${currentKey}`;
+  const currentIdx = Math.max(servicesOrder.indexOf(currentPathForOrder), 0);
+  const prevPath = servicesOrder[(currentIdx - 1 + servicesOrder.length) % servicesOrder.length];
+  const nextPath = servicesOrder[(currentIdx + 1) % servicesOrder.length];
+  const prevLabel = servicesLabels[prevPath];
+  const nextLabel = servicesLabels[nextPath];
+
   return (
     <section className="services-details-page padding" id="blog-cta">
       <div className="container">
         <div className="row">
           <div className="col-xl-8">
             <div className="services-details-page__content">
-              <div className="services-details-page__content-img1">
+              <div className="services-details-page__content-img1" style={{ height: 380, overflow: 'hidden' }}>
                 <img src={(() => {
                   switch(transportType) {
-                    case "pick-and-pack":
-                      return "/img/service/pandp.png";
-                    case "pharmaceutical":
-                      return "/img/service/pharm.png";
-                    case "aog":
-                      return "/img/service/aog.png";
-                    case "time-critical-deliveries":
-                      return "/img/service/tcd.png";
-                    case "on-board-courier":
-                      return "/img/service/obc.png";
+                    case "security-screening":
+                      return "/img/service/security-screening.jpg";
+                    case "uk-eu-transport":
+                      return "/img/service/uk_eu_transport.webp";
+                    case "white-glove-service":
+                      return "/img/service/white_glove.png";
                     case "etsf":
                       return "/img/service/etsf.png";
-                    case "x-ray-screening":
-                      return "/img/service/xray.png";
                     case "warehousing":
-                      return "/img/service/warehouse.png";
+                      return "/img/service/warehousing_storage.jpg";
+                    case "pick-and-pack":
+                      return "/img/service/pick_and_pack.png";
+                    case "temperature-controlled":
+                      return "/img/service/temp_controlled.png";
                     default:
                       return thumbnailOne;
                   }
-                })()} alt="#" />
+                })()} alt="#" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
               </div>
 
               <div className="services-details-page__content-text1">
@@ -162,77 +187,12 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                   </div>
                   <div className="text-box">
                     <p>
-                      <Link href={(() => {
-                        switch(transportType) {
-                          case "pick-and-pack":
-                            return "/warehousing";
-                          case "pharmaceutical":
-                            return "/pick-and-pack";
-                          case "aog":
-                            return "/pharmaceutical";
-                          case "time-critical-deliveries":
-                            return "/aog";
-                          case "on-board-courier":
-                            return "/time-critical-deliveries";
-                          case "etsf":
-                            return "/on-board-courier";
-                          case "x-ray-screening":
-                            return "/etsf";
-                          case "warehousing":
-                            return "/x-ray-screening";
-                          default:
-                            return "/warehousing";
-                        }
-                      })()}>
+                      <Link href={prevPath}>
                         <span className="icon-up-right-arrow"></span> Previous
                       </Link>
                     </p>
                     <h2>
-                      <Link href={(() => {
-                        switch(transportType) {
-                          case "pick-and-pack":
-                            return "/warehousing";
-                          case "pharmaceutical":
-                            return "/pick-and-pack";
-                          case "aog":
-                            return "/pharmaceutical";
-                          case "time-critical-deliveries":
-                            return "/aog";
-                          case "on-board-courier":
-                            return "/time-critical-deliveries";
-                          case "etsf":
-                            return "/on-board-courier";
-                          case "x-ray-screening":
-                            return "/etsf";
-                          case "warehousing":
-                            return "/x-ray-screening";
-                          default:
-                            return "/warehousing";
-                        }
-                      })()}>
-                        {(() => {
-                          switch(transportType) {
-                            case "pick-and-pack":
-                              return "Warehousing";
-                            case "pharmaceutical":
-                              return "Pick and Pack";
-                            case "aog":
-                              return "Pharmaceutical";
-                            case "time-critical-deliveries":
-                              return "AOG";
-                            case "on-board-courier":
-                              return "Time Critical Deliveries";
-                            case "etsf":
-                              return "On Board Courier";
-                            case "x-ray-screening":
-                              return "ETSF";
-                            case "warehousing":
-                              return "X-Ray Screening";
-                            default:
-                              return "Warehousing";
-                          }
-                        })()}
-                      </Link>
+                      <Link href={prevPath}>{prevLabel}</Link>
                     </h2>
                   </div>
                 </div>
@@ -240,77 +200,12 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                 <div className="single-box style2">
                   <div className="text-box">
                     <p>
-                      <Link href={(() => {
-                        switch(transportType) {
-                          case "pick-and-pack":
-                            return "/pharmaceutical";
-                          case "pharmaceutical":
-                            return "/aog";
-                          case "aog":
-                            return "/time-critical-deliveries";
-                          case "time-critical-deliveries":
-                            return "/on-board-courier";
-                          case "on-board-courier":
-                            return "/etsf";
-                          case "etsf":
-                            return "/x-ray-screening";
-                          case "x-ray-screening":
-                            return "/warehousing";
-                          case "warehousing":
-                            return "/pick-and-pack";
-                          default:
-                            return "/pick-and-pack";
-                        }
-                      })()}>
+                      <Link href={nextPath}>
                         Next <span className="icon-up-right-arrow"></span>
                       </Link>
                     </p>
                     <h2>
-                      <Link href={(() => {
-                        switch(transportType) {
-                          case "pick-and-pack":
-                            return "/pharmaceutical";
-                          case "pharmaceutical":
-                            return "/aog";
-                          case "aog":
-                            return "/time-critical-deliveries";
-                          case "time-critical-deliveries":
-                            return "/on-board-courier";
-                          case "on-board-courier":
-                            return "/etsf";
-                          case "etsf":
-                            return "/x-ray-screening";
-                          case "x-ray-screening":
-                            return "/warehousing";
-                          case "warehousing":
-                            return "/pick-and-pack";
-                          default:
-                            return "/pick-and-pack";
-                        }
-                      })()}>
-                        {(() => {
-                          switch(transportType) {
-                            case "pick-and-pack":
-                              return "Pharmaceutical";
-                            case "pharmaceutical":
-                              return "AOG";
-                            case "aog":
-                              return "Time Critical Deliveries";
-                            case "time-critical-deliveries":
-                              return "On Board Courier";
-                            case "on-board-courier":
-                              return "ETSF";
-                            case "etsf":
-                              return "X-Ray Screening";
-                            case "x-ray-screening":
-                              return "Warehousing";
-                            case "warehousing":
-                              return "Pick and Pack";
-                            default:
-                              return "Pick and Pack";
-                          }
-                        })()}
-                      </Link>
+                      <Link href={nextPath}>{nextLabel}</Link>
                     </h2>
                   </div>
                   <div className="icon-box">
@@ -346,74 +241,44 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                 </div>
                 <ul className="sidebar__services-list">
                   <li>
-                    <Link
-                      className={`${transportType === "pick-and-pack" ? "active" : ""}`}
-                      href="pick-and-pack"
-                    >
-                      Pick and Pack
+                    <Link className={`${transportType === "security-screening" ? "active" : ""}`} href="/security-screening">
+                      Security Screening
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className={`${transportType === "pharmaceutical" ? "active" : ""}`}
-                      href="pharmaceutical"
-                    >
-                      Pharmaceutical
+                    <Link className={`${transportType === "uk-eu-transport" ? "active" : ""}`} href="/uk-eu-transport">
+                      UK & EU Transport
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className={`${transportType === "aog" ? "active" : ""}`}
-                      href="aog"
-                    >
-                      AOG (Aircraft on Ground)
+                    <Link className={`${transportType === "white-glove-service" ? "active" : ""}`} href="/white-glove-service">
+                      White Glove Service
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className={`${transportType === "time-critical-deliveries" ? "active" : ""}`}
-                      href="time-critical-deliveries"
-                    >
-                      Time Critical Deliveries
+                    <Link className={`${transportType === "etsf" ? "active" : ""}`} href="/etsf">
+                      ETSF (Coming Soon)
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className={`${transportType === "on-board-courier" ? "active" : ""}`}
-                      href="on-board-courier"
-                    >
-                      On Board Courier
+                    <Link className={`${transportType === "warehousing" ? "active" : ""}`} href="/warehousing">
+                      Warehousing & Storage
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className={`${transportType === "etsf" ? "active" : ""}`}
-                      href="etsf"
-                    >
-                      ETSF
+                    <Link className={`${transportType === "pick-and-pack" ? "active" : ""}`} href="/pick-and-pack">
+                      Pick & Pack
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className={`${transportType === "x-ray-screening" ? "active" : ""}`}
-                      href="x-ray-screening"
-                    >
-                      X-Ray Screening
-                      <span className="icon-right-arrow-5"></span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className={`${transportType === "warehousing" ? "active" : ""}`}
-                      href="warehousing"
-                    >
-                      Warehousing
+                    <Link className={`${transportType === "temperature-controlled" ? "active" : ""}`} href="/temperature-controlled-storage-transportation">
+                      Temperature Controlled Storage & Transportation
                       <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>

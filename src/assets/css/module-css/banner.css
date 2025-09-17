@@ -126,7 +126,7 @@
     bottom: 0;
     right: 0px;
     width: 10%;
-    background: #000000;
+    /* background: #000000; */
     mix-blend-mode: soft-light;
     border-radius: 10px;
     opacity: 0;

@@ -59,7 +59,7 @@ const ContactUsSection = () => {
                                     <div className="icon-box"><span className="icon-email"></span></div>
                                     <div className="text-box">
                                         <p>Email Us</p>
-                                        <h2><Link href="mailto:info@oneclickhandling.co.uk">info@oneclickhandling.co.uk</Link></h2>
+                                        <h2><Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link></h2>
                                     </div>
                                 </li>
                                 <li>

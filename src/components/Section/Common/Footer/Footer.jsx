@@ -6,6 +6,22 @@ import BrandLogo from "~/components/Ui/Logo/BrandLogo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [showAccountModal, setShowAccountModal] = React.useState(false);
+  const [pendingHref, setPendingHref] = React.useState(null);
+
+  const onAccountClick = (e) => {
+    e.preventDefault();
+    setPendingHref(e.currentTarget.getAttribute('href'));
+    setShowAccountModal(true);
+  };
+
+  const proceedDownload = () => {
+    if (pendingHref) {
+      window.open(pendingHref, '_blank', 'noopener');
+    }
+    setShowAccountModal(false);
+    setPendingHref(null);
+  };
   return (
     <footer className="footer-one">
       <ScrollToTop smooth top='80' color="white" style={{backgroundColor:"#014bde", "&:hover": { backgroundColor: "#186265" }}}/>
@@ -52,22 +68,16 @@ const Footer = () => {
                   <div className="footer-widget__links-box">
                     <ul>
                       <li>
-                        <Link href="/">Home</Link>
+                        <Link href="/documents/Website-Brochure.pdf" target="_blank">Brochure</Link>
                       </li>
                       <li>
-                        <Link href="/about">About Us</Link>
+                        <Link href="/rate-card" >Rate Card</Link>
                       </li>
                       <li>
-                        <Link href="/services">Our Services</Link>
+                        <a href="/documents/One Click Handling - Customer Credit Account Application V2.1 September 2025.pdf" target="_blank" onClick={onAccountClick}>Account form</a>
                       </li>
                       <li>
-                        <Link href="/contact">Contact</Link>
-                      </li>
-                      <li>
-                        <Link href="/about#mission">Our Mission</Link>
-                      </li>
-                      <li>
-                        <Link href="/about#team">Our Team</Link>
+                        <Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">Terms &amp; Conditions</Link>
                       </li>
                     </ul>
                   </div>
@@ -81,30 +91,13 @@ const Footer = () => {
                   </div>
                   <div className="footer-widget__links-box">
                     <ul>
-                      <li>
-                        <Link href="/pick-and-pack">Pick and Pack</Link>
-                      </li>
-                      <li>
-                        <Link href="/pharmaceutical">Pharmaceutical</Link>
-                      </li>
-                      <li>
-                        <Link href="/aog">AOG (Aircraft on Ground)</Link>
-                      </li>
-                      <li>
-                        <Link href="/time-critical-deliveries">Time Critical Deliveries</Link>
-                      </li>
-                      <li>
-                        <Link href="/on-board-courier">On Board Courier</Link>
-                      </li>
-                      <li>
-                        <Link href="/etsf">ETSF</Link>
-                      </li>
-                      <li>
-                        <Link href="/x-ray-screening">X-Ray Screening</Link>
-                      </li>
-                      <li>
-                        <Link href="/warehousing">Warehousing</Link>
-                      </li>
+                      <li><Link href="/security-screening">Security Screening</Link></li>
+                      <li><Link href="/uk-eu-transport">UK & EU Transport</Link></li>
+                      <li><Link href="/white-glove-service">White Glove Service</Link></li>
+                      <li><Link href="/etsf">ETSF</Link></li>
+                      <li><Link href="/warehousing">Warehousing & Storage</Link></li>
+                      <li><Link href="/pick-and-pack">Pick & Pack</Link></li>
+                      <li><Link href="/temperature-controlled-storage-transportation">Temperature Controlled</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -181,6 +174,18 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    {showAccountModal && (
+      <div style={{position:'fixed', inset:0, background:'rgba(0,0,0,0.55)', display:'flex', alignItems:'center', justifyContent:'center', zIndex:9999}}>
+        <div style={{background:'#fff', color:'#111', maxWidth:520, width:'90%', padding:'24px', borderRadius:12, boxShadow:'0 10px 30px rgba(0,0,0,.35)'}}>
+          <h3 style={{margin:'0 0 12px', fontSize:22}}>Account Form</h3>
+          <p style={{margin:'0 0 18px', lineHeight:1.5}}>Please complete and sign me, then email to <a href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</a>.</p>
+          <div style={{display:'flex', gap:10, justifyContent:'flex-end'}}>
+            <button onClick={()=>{setShowAccountModal(false); setPendingHref(null);}} style={{padding:'10px 16px', borderRadius:8, border:'1px solid #d1d5db', background:'#fff', cursor:'pointer'}}>Cancel</button>
+            <button onClick={proceedDownload} style={{padding:'10px 16px', borderRadius:8, border:'none', background:'#014bde', color:'#fff', cursor:'pointer'}}>OK</button>
+          </div>
+        </div>
+      </div>
+    )}
   );
 };
 

@@ -2,6 +2,12 @@ import { NextResponse } from 'next/server';
 
 export function middleware(request) {
   const maintenanceEnabled = process.env.NEXT_PUBLIC_MAINTENANCE_MODE === 'true' || process.env.MAINTENANCE_MODE === 'true';
+  const hostname = request.nextUrl.hostname || '';
+  
+  // Bypass maintenance on the update-plans branch deploys (e.g., update-plans--<site>.netlify.app)
+  if (hostname.includes('update-plans--')) {
+    return NextResponse.next();
+  }
 
   if (!maintenanceEnabled) {
     return NextResponse.next();

@@ -28,7 +28,7 @@ const AboutPage = () => {
           property="og:description"
           content="Trusted handling and warehousing experts. Learn more about our team, capabilities, and commitment to client success."
         />
-        <meta property="og:image" content="/img/logo.png" />
+        <meta property="og:image" content="/img/logo/ochlogopng.png" />
         <meta
           name="keywords"
           content="about transport and handling company, warehousing, customs, transport solutions, One Click Handling"

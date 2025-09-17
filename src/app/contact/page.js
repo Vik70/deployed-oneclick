@@ -23,7 +23,7 @@ const ContactPage = () => {
           property="og:description"
           content="Reach out to One Click Handling for rapid handling support and transport solutions across the UK and EU."
         />
-        <meta property="og:image" content="/img/logo.png" />
+        <meta property="og:image" content="/img/logo/ochlogopng.png" />
         <link rel="canonical" href="https://oneclickhandling.co.uk/contact" />
         <meta
           name="keywords"

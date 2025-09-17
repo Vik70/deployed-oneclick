@@ -358,7 +358,7 @@ const HeaderThree = () => {
                                             </li>
                                             <li>
                                                 <span className="fa fa-envelope"></span>
-                                                <Link href="mailto:operations@oneclickhandling.co.uk">operations@oneclickhandling.co.uk</Link>
+                                                <Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link>
                                             </li>
                                         </ul>
                                     </div>
