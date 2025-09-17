@@ -10,6 +10,13 @@ export function middleware(request) {
   }
 
   if (!maintenanceEnabled) {
+    // Add simple redirects for removed routes
+    const { pathname } = request.nextUrl;
+    if (pathname === '/aog' || pathname === '/on-board-courier') {
+      const url = request.nextUrl.clone();
+      url.pathname = '/services';
+      return NextResponse.redirect(url, 308);
+    }
     return NextResponse.next();
   }
 
