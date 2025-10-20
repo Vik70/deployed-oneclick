@@ -78,7 +78,7 @@ const AboutSection = () => {
                                     <div className="text-box">
                                         <p>Need Help?</p>
                                         <h3>
-                                            <Link href="tel:0333 404 0298">0333 404 0298</Link>
+                                            <Link href="tel:02033193929">02033193929</Link>
                                         </h3>
                                     </div>
                                 </div>

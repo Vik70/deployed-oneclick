@@ -45,7 +45,7 @@ export default function GoogleMap() {
                           <div  className="icon-box">
                             <span  className="icon-out-call"></span>
                           </div>
-                          <p><Link href="tel:123456789">0333 404 0298</Link></p>
+                          <p><Link href="tel:02033193929">02033193929</Link></p>
                         </li>
                       </ul>
                     </div>
@@ -122,7 +122,7 @@ export default function GoogleMap() {
                           <div  className="icon-box">
                             <span  className="icon-out-call"></span>
                           </div>
-                          <p><Link href="tel:0333 404 0298">0333 404 0298</Link></p>
+                          <p><Link href="tel:02033193929">02033193929</Link></p>
                         </li>
                       </ul>
                     </div>

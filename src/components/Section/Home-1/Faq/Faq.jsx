@@ -33,7 +33,7 @@ const Faq = () => {
                   <Accordion.Body>
                     <span>Answer:</span>
                     <p>
-If your requirement is not covered by our <Link href="/rate-card">Rate Card</Link>, solutions and pricing are just a phone call or an email away. Alternatively, please complete our enquiry form, and our sales team will respond within 1 working day.
+If your requirement is not covered by our <a href="/documents/One Click Rate Card - October 2025 V1.1.pdf" target="_blank">Rate Card</a>, solutions and pricing are just a phone call or an email away. Alternatively, please complete our enquiry form, and our sales team will respond within 1 working day.
                     </p>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -110,7 +110,7 @@ Shipments are managed in compliance with the Medicines &amp; Healthcare products
 
                 <div className="text">
                   <p>Have Any Questions</p>
-                  <h3><Link href="tel:0333 404 0298">0333 404 0298</Link></h3>
+                  <h3><Link href="tel:02033193929">02033193929</Link></h3>
                 </div>
               </div>
 

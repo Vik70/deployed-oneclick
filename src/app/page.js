@@ -51,7 +51,7 @@ export default function Home() {
               logo: "https://oneclickhandling.co.uk/img/logo/ochlogopng.png",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+44-333-404-0298",
+                telephone: "+44-20-3319-3929",
                 contactType: "Customer Service",
               },
               sameAs: [

@@ -59,7 +59,7 @@ const PrivacyPolicyPage = () => {
           <h4 className="mt-5 mb-2">Contact Us</h4>
           <p className="mb-4">
             Email: info@oneclickhandling.co.uk <br />
-            Phone: 0333 404 0298 <br />
+            Phone: 02033193929 <br />
             Address: Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN
           </p>
 

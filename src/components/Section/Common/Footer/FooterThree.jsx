@@ -82,7 +82,7 @@ const FooterThree = () => {
                             <div className="content-box">
                               <p>Phone</p>
                               <h4>
-                                <Link href="tel:03334040298">0333 404 0298</Link>
+                                <Link href="tel:02033193929">02033193929</Link>
                               </h4>
                             </div>
                           </li>
@@ -103,7 +103,7 @@ const FooterThree = () => {
                     </div>
                     <ul>
                       <li><Link href="/documents/Website-Brochure.pdf" target="_blank">Brochure</Link></li>
-                      <li><Link href="/rate-card">Rate Card</Link></li>
+                      <li><a href="/documents/One Click Rate Card - October 2025 V1.1.pdf" target="_blank">Rate Card</a></li>
                       <li><a href="/documents/One Click Handling - Customer Credit Account Application V2.1 September 2025.pdf" target="_blank" onClick={onAccountClick}>Account form</a></li>
                       <li><Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">BIFA Terms &amp; Conditions</Link></li>
                     </ul>

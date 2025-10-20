@@ -45,7 +45,7 @@ const ContactUsSection = () => {
                                     <div className="icon-box"><span className="icon-telephone-call"></span></div>
                                     <div className="text-box">
                                         <p>Call Us Toll Free</p>
-                                        <h2><Link href="tel:03334040298">0333 404 0298</Link></h2>
+                                        <h2><Link href="tel:02033193929">02033193929</Link></h2>
                                     </div>
                                 </li>
                                 <li>

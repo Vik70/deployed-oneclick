@@ -28,7 +28,7 @@ const SupportPage = () => {
 
           <h4 className="mt-5 mb-2">Contact Information</h4>
           <ul className="list-disc ml-5 mb-4">
-            <li>📞 Phone: <Link href="tel:03334040298">0333 404 0298</Link></li>
+            <li>📞 Phone: <Link href="tel:02033193929">02033193929</Link></li>
             <li>✉️ Email: <Link href="mailto:sales@oneclickhandling.co.uk">sales@oneclickhandling.co.uk</Link></li>
             <li>🏢 Address: Unit 6 Mercury Centre, Feltham Trading Estate, TW14 0RN</li>
           </ul>
