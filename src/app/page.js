@@ -13,6 +13,7 @@ import Hero from "~/components/Section/Home-1/Hero";
 
 import Service from "~/components/Section/Home-1/Service";
 import Testimonial from "~/components/Section/Home-1/Testimonial";
+import TrustedBrands from "~/components/Section/Home-1/TrustedBrands/TrustedBrands";
 
 
 export default function Home() {
@@ -71,6 +72,7 @@ export default function Home() {
 
         <Hero />
         <About />
+        {/* <TrustedBrands /> */}
         <Service />
         <Cta />
         <ChooseUs />
