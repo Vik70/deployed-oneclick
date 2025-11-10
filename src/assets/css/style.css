@@ -1,3 +1,19 @@
+/* All @import rules must be at the very top before any other rules or comments */
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap");
+@import url("module-css/header.css");
+@import url("module-css/footer.css");
+@import url("module-css/services.css");
+@import url("module-css/about.css");
+@import url("module-css/banner.css");
+@import url("module-css/blog.css");
+@import url("module-css/breadcrumb.css");
+@import url("module-css/contact.css");
+@import url("module-css/fact-counter.css");
+@import url("module-css/partner.css");
+@import url("module-css/testimonial.css");
+@import url("module-css/team.css");
+
 /* CSS Index
 ============================
 1. Theme default css
@@ -17,27 +33,12 @@
 	1. Google Fonts
 ===============================*/
 
-@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap");
-
 /*** 
 ====================================================================
 	Css Files
 ====================================================================
 ***/
 /* Module Css */
-@import url("module-css/header.css");
-@import url("module-css/footer.css");
-@import url("module-css/services.css");
-@import url("module-css/about.css");
-@import url("module-css/banner.css");
-@import url("module-css/blog.css");
-@import url("module-css/breadcrumb.css");
-@import url("module-css/contact.css");
-@import url("module-css/fact-counter.css");
-@import url("module-css/partner.css");
-@import url("module-css/testimonial.css");
-@import url("module-css/team.css");
 
 /*=============================
 	1. Variable CSS
