@@ -293,7 +293,7 @@ const HeaderFour = () => {
                         <nav className="menu-box">
                             <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose}><i className="fas fa-times"></i></div>
                             <div className="nav-logo">
-                                <Link href="/"><img src="/img/logo/och_handle.svg" alt="OCH Logo" style={{ height: '200px', width: 'auto' }} /></Link>
+                                <Link href="/"><img src="/img/logo/och_handle.svg" alt="OCH Logo" style={{ height: '60px', width: 'auto' }} /></Link>
                             </div>
                             <div className="menu-outer">
                                 <ul className="navigation">
@@ -302,14 +302,13 @@ const HeaderFour = () => {
                                     <li className="menu-item-has-children">
                                         <Link href="/services">Services</Link>
                                         <ul className="sub-menu">
-                                            <li><Link href="/pick-and-pack">Pick and Pack</Link></li>
-                                            <li><Link href="/pharmaceutical">Pharmaceutical</Link></li>
-                                            
-                                            <li><Link href="/time-critical-deliveries">Time Critical Deliveries</Link></li>
-                                            
-                                            <li><Link href="/etsf">ETSF</Link></li>
-                                            <li><Link href="/x-ray-screening">X-Ray Screening</Link></li>
-                                            <li><Link href="/warehousing">Warehousing</Link></li>
+                                            <li><Link href="/security-screening">Security Screening</Link></li>
+                                            <li><Link href="/uk-eu-transport">UK & EU Transport</Link></li>
+                                            <li><Link href="/white-glove-service">White Glove Service</Link></li>
+                                            <li><Link href="/etsf">ETSF (Coming Soon)</Link></li>
+                                            <li><Link href="/warehousing">Warehousing & Storage</Link></li>
+                                            <li><Link href="/pick-and-pack">Pick & Pack</Link></li>
+                                            <li><Link href="/temperature-controlled-storage-transportation">Temperature Controlled Storage & Transportation</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link href="/contact">Contact</Link></li>

@@ -162,23 +162,25 @@ const Header = () => {
                                                                         <Link href="/services" onClick={mobileMenuClose}>Services</Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href="/pick-and-pack" onClick={mobileMenuClose}>Pick and Pack</Link>
+                                                                        <Link href="/security-screening" onClick={mobileMenuClose}>Security Screening</Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href="/pharmaceutical" onClick={mobileMenuClose}>Pharmaceutical</Link>
+                                                                        <Link href="/uk-eu-transport" onClick={mobileMenuClose}>UK & EU Transport</Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href="/time-critical-deliveries" onClick={mobileMenuClose}>Time Critical Deliveries</Link>
-                                                                    </li>
-                                                                    
-                                                                    <li>
-                                                                        <Link href="/etsf" onClick={mobileMenuClose}>ETSF</Link>
+                                                                        <Link href="/white-glove-service" onClick={mobileMenuClose}>White Glove Service</Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href="/x-ray-screening" onClick={mobileMenuClose}>X-Ray Screening</Link>
+                                                                        <Link href="/etsf" onClick={mobileMenuClose}>ETSF (Coming Soon)</Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href="/warehousing" onClick={mobileMenuClose}>Warehousing</Link>
+                                                                        <Link href="/warehousing" onClick={mobileMenuClose}>Warehousing & Storage</Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link href="/pick-and-pack" onClick={mobileMenuClose}>Pick & Pack</Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link href="/temperature-controlled-storage-transportation" onClick={mobileMenuClose}>Temperature Controlled Storage & Transportation</Link>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -219,14 +221,13 @@ const Header = () => {
                                                 <Link href="#">Services</Link>
                                                 <ul className="sub-menu">
                                                     <li><Link href="/services" onClick={mobileMenuClose}>Services</Link></li>
-                                                    <li><Link href="/pick-and-pack" onClick={mobileMenuClose}>Pick and Pack</Link></li>
-                                                    <li><Link href="/pharmaceutical" onClick={mobileMenuClose}>Pharmaceutical</Link></li>
-                                                    
-                                                    <li><Link href="/time-critical-deliveries" onClick={mobileMenuClose}>Time Critical Deliveries</Link></li>
-                                                    
-                                                    <li><Link href="/etsf" onClick={mobileMenuClose}>ETSF</Link></li>
-                                                    <li><Link href="/x-ray-screening" onClick={mobileMenuClose}>X-Ray Screening</Link></li>
-                                                    <li><Link href="/warehousing" onClick={mobileMenuClose}>Warehousing</Link></li>
+                                                    <li><Link href="/security-screening" onClick={mobileMenuClose}>Security Screening</Link></li>
+                                                    <li><Link href="/uk-eu-transport" onClick={mobileMenuClose}>UK & EU Transport</Link></li>
+                                                    <li><Link href="/white-glove-service" onClick={mobileMenuClose}>White Glove Service</Link></li>
+                                                    <li><Link href="/etsf" onClick={mobileMenuClose}>ETSF (Coming Soon)</Link></li>
+                                                    <li><Link href="/warehousing" onClick={mobileMenuClose}>Warehousing & Storage</Link></li>
+                                                    <li><Link href="/pick-and-pack" onClick={mobileMenuClose}>Pick & Pack</Link></li>
+                                                    <li><Link href="/temperature-controlled-storage-transportation" onClick={mobileMenuClose}>Temperature Controlled Storage & Transportation</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link href="/contact" onClick={mobileMenuClose}>Contact</Link></li>
