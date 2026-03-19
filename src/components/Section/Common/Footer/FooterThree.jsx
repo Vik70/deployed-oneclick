@@ -103,7 +103,7 @@ const FooterThree = () => {
                     </div>
                     <ul>
                       <li><Link href="/documents/Website-Brochure.pdf" target="_blank">Brochure</Link></li>
-                      <li><a href="/documents/One Click Rate Card - October 2025 V1.1.pdf" target="_blank">Rate Card</a></li>
+                      <li><a href="/documents/One Click Handling - Rate Card - March 2026 V1.0.pdf" target="_blank">Rate Card</a></li>
                       <li><a href="/documents/One Click Handling - Customer Credit Account Application V2.1 September 2025.pdf" target="_blank" onClick={onAccountClick}>Account form</a></li>
                       <li><Link href="/documents/BIFA-STC-2021-England-Edition.pdf" target="_blank">BIFA Terms &amp; Conditions</Link></li>
                     </ul>
