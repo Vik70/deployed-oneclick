@@ -33,7 +33,7 @@ const Faq = () => {
                   <Accordion.Body>
                     <span>Answer:</span>
                     <p>
-If your requirement is not covered by our <a href="/documents/One Click Rate Card - October 2025 V1.1.pdf" target="_blank">Rate Card</a>, solutions and pricing are just a phone call or an email away. Alternatively, please complete our enquiry form, and our sales team will respond within 1 working day.
+If your requirement is not covered by our <a href="/documents/One Click Handling - Rate Card - March 2026 V1.0" target="_blank">Rate Card</a>, solutions and pricing are just a phone call or an email away. Alternatively, please complete our enquiry form, and our sales team will respond within 1 working day.
                     </p>
                   </Accordion.Body>
                 </Accordion.Item>

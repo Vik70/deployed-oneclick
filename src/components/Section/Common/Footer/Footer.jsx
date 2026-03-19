@@ -71,7 +71,7 @@ const Footer = () => {
                         <Link href="/documents/Website-Brochure.pdf" target="_blank">Brochure</Link>
                       </li>
                       <li>
-                        <a href="/documents/One Click Rate Card - October 2025 V1.1.pdf" target="_blank">Rate Card</a>
+                        <a href="/documents/One Click Handling - Rate Card - March 2026 V1.0" target="_blank">Rate Card</a>
                       </li>
                       <li>
                         <a href="/documents/One Click Handling - Customer Credit Account Application V2.1 September 2025.pdf" target="_blank" onClick={onAccountClick}>Account form</a>
